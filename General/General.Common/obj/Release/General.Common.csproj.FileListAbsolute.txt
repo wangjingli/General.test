@@ -1,0 +1,4 @@
+E:\程亚兵\General.test\General\General.Common\bin\Release\General.Common.dll
+E:\程亚兵\General.test\General\General.Common\bin\Release\General.Common.pdb
+E:\程亚兵\General.test\General\General.Common\obj\Release\General.Common.dll
+E:\程亚兵\General.test\General\General.Common\obj\Release\General.Common.pdb

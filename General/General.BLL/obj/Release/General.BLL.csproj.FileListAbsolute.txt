@@ -1,0 +1,14 @@
+E:\程亚兵\General.test\General\General.BLL\bin\Release\General.BLL.dll
+E:\程亚兵\General.test\General\General.BLL\bin\Release\General.BLL.pdb
+E:\程亚兵\General.test\General\General.BLL\bin\Release\General.DAL.dll
+E:\程亚兵\General.test\General\General.BLL\bin\Release\General.Model.dll
+E:\程亚兵\General.test\General\General.BLL\bin\Release\EntityFramework.dll
+E:\程亚兵\General.test\General\General.BLL\bin\Release\General.Common.dll
+E:\程亚兵\General.test\General\General.BLL\bin\Release\General.DAL.pdb
+E:\程亚兵\General.test\General\General.BLL\bin\Release\General.Model.pdb
+E:\程亚兵\General.test\General\General.BLL\bin\Release\EntityFramework.xml
+E:\程亚兵\General.test\General\General.BLL\bin\Release\General.Common.pdb
+E:\程亚兵\General.test\General\General.BLL\bin\Release\zh-Hans\EntityFramework.resources.dll
+E:\程亚兵\General.test\General\General.BLL\obj\Release\General.BLL.csprojResolveAssemblyReference.cache
+E:\程亚兵\General.test\General\General.BLL\obj\Release\General.BLL.dll
+E:\程亚兵\General.test\General\General.BLL\obj\Release\General.BLL.pdb

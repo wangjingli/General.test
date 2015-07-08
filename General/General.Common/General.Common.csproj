@@ -45,8 +45,10 @@
     <Compile Include="CreateOnlyId.cs" />
     <Compile Include="CreateVerificationCode.cs" />
     <Compile Include="DTO\EasyuiDatagrid.cs" />
+    <Compile Include="Filter\AuthorizeFilterAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringEncryptionHelp.cs" />
+    <Compile Include="ViewPageAttribute.cs" />
     <Compile Include="WebPlug\BaseController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

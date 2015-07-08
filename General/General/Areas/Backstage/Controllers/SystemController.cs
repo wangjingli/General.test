@@ -177,13 +177,19 @@ namespace General.Areas.Backstage.Controllers
         /// <returns></returns>
         public ActionResult Role()
         {
+
             return View();
         }
 
+        [HttpGet]
         public ActionResult RoleAdd()
         {
-
             return View();
+        }
+        [HttpPost]
+        public ActionResult RoleAdd(string RoleName, string Description)
+        {
+            return Json(new { Code = RoleName + Description }, JsonRequestBehavior.AllowGet);
         }
     }
 }

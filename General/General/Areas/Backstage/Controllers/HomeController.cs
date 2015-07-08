@@ -31,7 +31,7 @@ namespace General.Areas.Backstage.Controllers
         public ActionResult Index()
         {
 
-            Reqest();
+            //Reqest();
 
             //XElement root = XElement.Load(Server.MapPath("~/") + "App_Data\\TreeMenu.xml");
             ViewBag.SigninName = SigninName;

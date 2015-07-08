@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<Tree>
+  <TreeNode Title='博客管理'  Code='Blog' EasyuiIcon='icon-blog' BootstrapIcon='fa fa-bold'>
+    <TreeNode Title='文章管理'  Code='Blog.Word' EasyuiIcon='icon-blog' BootstrapIcon='fa fa-file-text-o'  Url='~/UserMessage/111'>
+    </TreeNode>
+    <TreeNode Title='图片管理'  Code='Blog.Img' EasyuiIcon='icon-blog' BootstrapIcon='fa fa-picture-o'  Url='~/UserMessage/111'>
+    </TreeNode>
+    <TreeNode Title='标签管理'  Code='Blog.Label' EasyuiIcon='icon-blog' BootstrapIcon='fa fa-tags'  Url='~/UserMessage/111'>
+    </TreeNode>
+    <TreeNode Title='分类管理'  Code='Blog.ObjectType' EasyuiIcon='icon-blog' BootstrapIcon='fa fa-bold'  Url='~/UserMessage/111'>
+    </TreeNode>
+    <TreeNode Title='反馈意见管理'  Code='Blog.Feedback' EasyuiIcon='icon-blog' BootstrapIcon='fa fa-bold'  Url='~/UserMessage/111'>
+    </TreeNode>
+  </TreeNode>
+
+  <TreeNode Title='个人中心' Code='User' EasyuiIcon='icon-user' BootstrapIcon='fa fa-user' >
+    <TreeNode Title='个人中心' Code='User.Info' EasyuiIcon='icon-user' BootstrapIcon='glyphicon glyphicon-info-sign' Url='~/Backstage/User/Info'>
+    </TreeNode>
+    <TreeNode Title='信息中心' Code='User.Letters' EasyuiIcon='icon-user' BootstrapIcon='fa fa-envelope' Url='~/Backstage/User/Info'>
+    </TreeNode>
+  </TreeNode>
+
+  <TreeNode Title='系统设置'  Code='SystemSet' EasyuiIcon='icon-setting' BootstrapIcon='fa fa-cog'>
+    <TreeNode Title='用户管理' Code='SystemSet.Account' EasyuiIcon='icon-user' BootstrapIcon='fa fa-user' Url='~/Backstage/Home/Index2'>
+    </TreeNode>
+    <TreeNode Title='角色管理' Code='SystemSet.Role' EasyuiIcon='icon-role' BootstrapIcon='fa fa-users' Url='~/Backstage/System/Role'>
+    </TreeNode>
+    <TreeNode Title='菜单管理' Code='SystemSet.Menu' EasyuiIcon='icon-menuBlue' BootstrapIcon='fa fa-th-list' Url='~/Backstage/System/Menu'>
+    </TreeNode>
+    <TreeNode Title='系统锁屏' Code='SystemSet.Lock' EasyuiIcon='icon-buttonInfo' BootstrapIcon='fa fa-lock' Url='~/Backstage/Account/LockScreen'>
+    </TreeNode>
+  </TreeNode>
+</Tree>

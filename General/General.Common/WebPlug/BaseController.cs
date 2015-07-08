@@ -4,12 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
+using General.Common.Filter;
 
 namespace General.Common
 {
     /// <summary>
     /// 控制器基类
     /// </summary>
+    //[AuthorizeFilterAttribute]
     public class BaseController : Controller
     {
         public BaseController()

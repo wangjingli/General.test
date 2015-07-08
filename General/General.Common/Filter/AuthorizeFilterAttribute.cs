@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Web.Mvc;
 
 namespace General.Common.Filter
 {
@@ -17,6 +18,13 @@ namespace General.Common.Filter
             {
                 throw new ArgumentNullException("filterContext");
             }
+
+            var area = filterContext.RouteData.DataTokens["area"];
+
+            var controllerName = filterContext.RouteData.Values["controller"].ToString();
+            var actionName = filterContext.RouteData.Values["action"].ToString();
+
+
             var path = filterContext.HttpContext.Request.Path.ToLower();
             if (path == "/" || path == "/Main/Login".ToLower() || path == "/Main/UserLogin".ToLower())
                 return;//忽略对Login登录页的权限判定
@@ -49,23 +57,23 @@ namespace General.Common.Filter
             {
                 return false;//判定用户是否登录
             }
-            var user = new CurrentUser();//获取当前用户信息
-            var controllerName = filterContext.RouteData.Values["controller"].ToString();
-            var actionName = filterContext.RouteData.Values["action"].ToString();
-            if (isViewPage && (controllerName.ToLower() != "main" && actionName.ToLower() != "masterpage"))//如果当前Action请求为具体的功能页并且不是MasterPage页
-            {
-                if (user.MenuPermission.Count(m => m.ControllerName == controllerName && m.ActionName == actionName) == 0)
-                    return false;
-            }
-            else
-            {
-                var actions = ContainerFactory.GetContainer().Resolve<IAuthorityFacade>().GetAllActionPermission();//所有被维护的Action权限
-                if (actions.Count(a => a.ControllerName == controllerName && a.ActionName == actionName) != 0)//如果当前Action属于被维护的Action权限
-                {
-                    if (user.ActionPermission.Count(a => a.ControllerName == controllerName && a.ActionName == actionName) == 0)
-                        return false;
-                }
-            }
+            //var user = new CurrentUser();//获取当前用户信息
+            //var controllerName = filterContext.RouteData.Values["controller"].ToString();
+            //var actionName = filterContext.RouteData.Values["action"].ToString();
+            //if (isViewPage && (controllerName.ToLower() != "main" && actionName.ToLower() != "masterpage"))//如果当前Action请求为具体的功能页并且不是MasterPage页
+            //{
+            //    if (user.MenuPermission.Count(m => m.ControllerName == controllerName && m.ActionName == actionName) == 0)
+            //        return false;
+            //}
+            //else
+            //{
+            //    var actions = ContainerFactory.GetContainer().Resolve<IAuthorityFacade>().GetAllActionPermission();//所有被维护的Action权限
+            //    if (actions.Count(a => a.ControllerName == controllerName && a.ActionName == actionName) != 0)//如果当前Action属于被维护的Action权限
+            //    {
+            //        if (user.ActionPermission.Count(a => a.ControllerName == controllerName && a.ActionName == actionName) == 0)
+            //            return false;
+            //    }
+            //}
             return true;
         }
     }
