@@ -1,0 +1,151 @@
+﻿@model List<General.Model.SystemMenu>
+@{
+    ViewBag.Title = "系统菜单";
+    ViewBag.Nav = new List<string>() { "系统设置", "系统菜单" };
+    Layout = "~/Areas/Backstage/Views/Shared/_Layout.cshtml";
+}
+@section Styles{
+    <link href="~/Scripts/UI/Bootstrap/css/jquery.treegrid.css" rel="stylesheet" />
+    <style type="text/css">
+        
+    </style>
+}
+@section Scripts{
+    <script src="~/Scripts/UI/Bootstrap/js/treegrid/jquery.treegrid.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.treegrid').treegrid({ treeColumn: 1 });
+            $("#InitMenu").on('click', function () {
+                $('.loading-container').show();
+                $('.loading-progress').show();
+                $.ajax({
+                    url: '@Url.Action("InitSystemMenu", "System")',
+                    async: true,
+                    dataType: 'json',
+                    success: function (data) {
+                        if (data.Code > 0) {
+                            Notify('初始化成功！', 'bottom-right', '5000',  'success', 'fa-info-circle', true);
+                            //$('.loading-progress').hide();
+                            //$('.loading-container').hide();
+                            Query();
+                        } else if (data.Code < 0) {
+                            $('.loading-progress').hide();
+                            $('.loading-container').hide();
+                            Notify(data.msg, 'bottom-right', '5000',  'danger', 'fa-exclamation-triangle', true);
+                        }
+                    }
+                })
+                
+            });
+        })
+        function Query() {
+            $('.loading-container').show();
+            $('.loading-progress').show();
+            var data = $("#QuerySection").serializeJSON();
+            $.post("@Url.Action("GetMenu", "System")", data, function (jsonData) {
+                var strHtml = "";
+                $.each(jsonData.rows, function (index, item) {
+                    index++;
+                    strHtml += "<tr class='" + (item.ParentId == "" ? "treegrid-" + item.Id : "treegrid-" + item.Id + " treegrid-parent-" + item.ParentId) + "'>" +
+                                      "<td style='text-align:center;'>" + index + "</td>" +
+                                      "<td>" + item.Title + "</td>" +
+                                      "<td>" + item.Code + "</td>" +
+                                      "<td>" + item.Url + "</td>" +
+                                      "<td><i class='icon " + item.Icon + "'></i></td></tr>";
+                });
+                $('#treegridBody').empty();
+                $('#treegridBody').append(strHtml);
+                $('.treegrid').treegrid({ treeColumn: 1 });
+                $('.loading-progress').hide();
+                $('.loading-container').hide();
+            });
+
+
+            //$("#SystemMenu").treegrid("load", data);
+        }
+
+
+
+    </script>
+}
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header">
+                <i class="widget-icon fa fa-list-ul"></i><span class="widget-caption">系统菜单</span>
+                <div class="widget-buttons">
+                    <a href="#" data-toggle="maximize"><i class="fa fa-expand"></i></a><a href="#" data-toggle="collapse">
+                        <i class="fa fa-minus"></i></a>
+                </div>
+                <!--Widget Buttons-->
+            </div>
+            <!--Widget Header-->
+            <div class="widget-body">
+                <div class="table-toolbar">
+                    <form id="QuerySection">
+                    <label>
+                        菜单名称：</label>
+                    <span id="" class="dataTables_filter">
+                        <label>
+                            <input type="search" class="form-control input-sm" name="MenuName" aria-controls="editabledatatable" /></label>
+                    </span>
+                    <label>
+                        <a id="query" href="javascript:Query()" class="btn btn-primary"><i class="icon fa fa-search">
+                        </i>查询</a>
+                    </label>
+                    <label>
+                        <a id="InitMenu" href="#" class="btn btn-primary"><i class="icon fa fa-repeat"></i>初始化菜单
+                        </a>
+                    </label>
+                    </form>
+                </div>
+                <table class="treegrid table table-bordered table-hover">
+                    <thead>
+                        <tr role="row">
+                            <th style="width: 50px; text-align: center;">
+                                序号
+                            </th>
+                            <th>
+                                名称
+                            </th>
+                            <th>
+                                代码
+                            </th>
+                            <th>
+                                路径
+                            </th>
+                            <th>
+                                图标
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="treegridBody">
+                        @{
+                            int index = 1;
+                            foreach (var item in Model)
+                            {
+                            <tr class="@(item.ParentId == "" ? "treegrid-" + item.Id : "treegrid-" + item.Id + " treegrid-parent-" + item.ParentId)">
+                                <td style="text-align: center;">@index
+                                </td>
+                                <td>@item.Title
+                                </td>
+                                <td>@item.Code
+                                </td>
+                                <td>@item.Url
+                                </td>
+                                <td>
+                                    <i class="icon  @item.BIcon"></i>
+                                </td>
+                            </tr>
+                                index++;
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <!--Widget Body-->
+        </div>
+        <!--Widget-->
+    </div>
+</div>
+</div> 

@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "系统角色";
+    ViewBag.Nav = new List<string>() { "系统设置", "系统角色" };
+    Layout = "~/Areas/Backstage/Views/Shared/_Layout.cshtml";
+}
+<link href="../../../../Scripts/UI/Bootstrap/css/bootstrap.min.css" rel="stylesheet"
+    type="text/css" />
+<link href="../../../../Scripts/UI/Bootstrap/css/generalAdmin.min.css" rel="stylesheet"
+    type="text/css" />
+@section Scripts
+    {
+    <script type="text/javascript" language="javascript">
+        alert(00);
+    </script>
+}
+<div class="row">
+    <div class=" col-lg-12 col-xs-12">
+        <div class="widget">
+            <div class=" widget-header">
+                <i class="widget-icon fa fa-user"></i><span class="widget-caption">系统角色</span>
+                <div class="widget-buttons">
+                    <a href="#" data-toggle="maximize"><i class="fa fa-expand"></i></a><a href="#" data-toggle="collapse">
+                        <i class="fa fa-minus"></i></a>
+                </div>
+                <!--Widget Buttons-->
+                <div>
+                </div>
+            </div>
+            <div class=" widget-body">
+                <div class="table-toolbar">
+                    <form id="QuerySection">
+                    <label>
+                        角色名称：</label>
+                    <span id="" class="dataTables_filter">
+                        <label>
+                            <input type="search" class="form-control input-sm" name="MenuName" aria-controls="editabledatatable" /></label>
+                    </span>
+                    <label>
+                        <a id="query" href="javascript:Query()" class="btn btn-primary"><i class="icon fa fa-search">
+                        </i>查询</a>
+                    </label>
+                    <label>
+                        <a id="query" href="javascript:addRole()" class="btn btn-primary"><i class="icon fa fa-plus">
+                        </i>新加角色</a>
+                    </label>
+                    <label>
+                        <a id="InitMenu" href="#" class="btn btn-primary"><i class="icon fa fa-trash-o"></i>
+                            删除 </a>
+                    </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

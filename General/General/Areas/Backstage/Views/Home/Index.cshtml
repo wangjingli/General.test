@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Backstage/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+<div style=" border:1px solid red; ">测试内容</div>
+@section Styles{
+    <style type="text/css">
+    </style>
+}
+@section Scripts{
+    @*自定义JS*@
+    @*@Scripts.Render("~/Compression/js/AppBackstage")*@
+    <script type="text/javascript">
+        $(function () {
+            //alert("加载中。。。。");
+        })
+    </script>
+}

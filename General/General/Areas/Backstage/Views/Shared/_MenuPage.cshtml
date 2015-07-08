@@ -1,0 +1,49 @@
+﻿@using System.Xml.Linq;
+@{
+    XElement TreenMenu = XElement.Load(Server.MapPath("~/") + "App_Data\\TreeMenu.xml");
+    List<string> actionMenu = new List<string>((User.Identity as FormsIdentity).Ticket.UserData.Split("|".ToCharArray())[3].Split(','));
+  
+    <ul class="nav sidebar-menu">
+        <li class="@((Request.FilePath.ToLower() == Url.Content("~/Backstage").ToLower() ||
+ Request.FilePath.ToLower() == Url.Content("~/Backstage/home/index").ToLower()) ? "active" : "")">
+            <a href="@Url.Action("Index", "Home")"><i class="menu-icon glyphicon glyphicon-home">
+            </i><span class="menu-text">后台首页</span> </a></li>
+        @foreach (var item in TreenMenu.Elements().Where(e => actionMenu.Contains(e.Attribute("Code").Value)
+            || (User.Identity as FormsIdentity).Ticket.UserData.Split("|".ToCharArray())[0] == "0"))
+        {
+            var iconRoot = item.Attribute("BootstrapIcon") == null ? "" : item.Attribute("BootstrapIcon").Value;
+            string MenuCode = "";
+            if (ViewBag.MenuCode != null)
+            {
+                MenuCode = ViewBag.MenuCode as string;
+            }
+            var visitUrl = Request.FilePath.ToLower();
+            var itemUrl = item.Elements().Where(c => Url.Content(c.Attribute("Url").Value.ToLower()) == visitUrl).Select(c => Url.Content(c.Attribute("Url").Value.ToLower())).ToList();
+            <li class="@((itemUrl.Count != 0 && visitUrl != Url.Content("~/Backstage").ToLower() && visitUrl != Url.Content("~/Backstage/home/index".ToLower()) || (!string.IsNullOrEmpty(MenuCode) && MenuCode.ToLower().Contains(item.Attribute("Code").Value.ToLower()))) ? "active open" : "")">
+                <a href=" #" class="menu-dropdown"><i class="menu-icon @iconRoot"></i><span class="menu-text">
+                    @item.Attribute("Title").Value </span>
+                    @if (item.Elements().Count() > 0)
+                    {
+                        <i class="menu-expand"></i>
+                    }
+                </a>
+                @{
+                    if (item.Elements().Count() > 0)
+                    {
+                    <ul class="submenu">
+                        @foreach (var treeNode in item.Elements().Where(e => actionMenu.Contains(e.Attribute("Code").Value)
+                        || (User.Identity as FormsIdentity).Ticket.UserData.Split("|".ToCharArray())[0] == "0"))
+                        {
+                            var url = treeNode.Attribute("Url") == null ? "" : treeNode.Attribute("Url").Value;
+                            var icon = treeNode.Attribute("BootstrapIcon") == null ? "" : treeNode.Attribute("BootstrapIcon").Value;
+                            <li class="@((Request.FilePath.ToLower() == Url.Content(url).ToLower()) || ((!string.IsNullOrEmpty(MenuCode)) && MenuCode.ToLower() == treeNode.Attribute("Code").Value.ToLower()) ? "active" : "")">
+                                <a href="@(Url.Content(url))"><i class="menu-icon @icon"></i><span class="menu-text">@treeNode.Attribute("Title").Value</span>
+                                </a></li>
+                        }
+                    </ul>
+                    }
+                }
+            </li>
+        }
+    </ul>
+}

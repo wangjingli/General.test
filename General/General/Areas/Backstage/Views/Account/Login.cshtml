@@ -1,0 +1,122 @@
+﻿@using System.Configuration
+@using General.Areas.Backstage.Models
+@model AccountModels
+@{
+    Layout = null;
+    
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="always" name="referrer">
+    <title>- 登录后台</title>
+    <link rel="shortcut icon" type="image/x-icon" href="@Url.Content("~/Content/Images/favicon.ico")" />
+    <link href="~/Scripts/UI/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Scripts/UI/Bootstrap/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Scripts/UI/Bootstrap/css/fontsCss.css" rel="stylesheet" />
+    <link href="~/Scripts/UI/Bootstrap/css/generalAdmin.min.css" rel="stylesheet" />
+    <style type="text/css">
+        *
+        {
+            font-family: 'Microsoft YaHei UI';
+        }
+        
+        .lableTitle
+        {
+            float: left;
+            margin-top: 8px;
+            text-align: right;
+        }
+        
+        body
+        {
+            /*background-image: url('../../../Content/Images/bg.jpg');*/
+            -moz-background-size: 100% 100%; /*  Firefox 3.6 */
+            -o-background-size: 100% 100%; /* Opera 9.5 */
+            -webkit-background-size: 100% 100%; /* Safari 3.0 */
+            background-size: 100% 100%; /*  Firefox 4.0 and other CSS3-compliant browsers */ /*-moz-border-image: url('../../../Content/Images/bg.jpg') 0;*/ /* Firefox 3.5 */
+            background-color: #dedede;
+        }
+        
+        .field-validation-error
+        {
+            color: red;
+            text-align: center;
+            margin-left: 51px;
+            margin-top: 50px;
+        }
+        
+        input.input-validation-error
+        {
+            border-color: red;
+        }
+        
+        input.input-validation-error:hover
+        {
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container animated fadeInDown">
+        <div class="loginbox bg-white">
+            <div class="logobox-log" style="padding: 10px initial; text-align: center;">
+                <img src="~/Content/Images/log.png" /></div>
+            <div class="loginbox-title" style="text-align: center;">
+                用户登录</div>
+            @using (Html.BeginForm("login", "account", FormMethod.Post, new { @id = "LoginForm" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="loginbox-textbox">
+                    @*@Html.LabelFor(m => m.UserName, new { @class = "lableTitle" })*@
+                    @Html.TextBoxFor(m => m.UserName, new { @type = "text", @title="用户名", @class = "form-control", @placeholder = "用户名", @style = "width:100%;" })
+                    @Html.ValidationMessageFor(m => m.UserName)
+                </div>
+                <div class="loginbox-textbox">
+                    @*<span class="lableTitle" for="PassWord" style="margin-right:2px;">密&nbsp;&nbsp;码</span>*@
+                    @Html.TextBoxFor(m => m.PassWord, new { @type = "password", @title = "密码", @class = "form-control", @placeholder = "密码", @style = "width:100%;" })
+                    @Html.ValidationMessageFor(m => m.PassWord)
+                </div>
+                <div class="loginbox-textbox">
+                    @*@Html.LabelFor(m => m.VerificationCode, new { @class = "lableTitle" })*@
+                    @Html.TextBoxFor(m => m.VerificationCode, new { @type = "text", @title = "验证码", @class = "form-control", @placeholder = "验证码", @value = "验证码", @style = "width:69%; float:left;" })
+                    @*<a>*@
+                    <img id="verificationCode_Img" style="cursor: pointer;vertical-align:middle;width:80px;height:34px; margin-left:2px;"
+                         src="@Url.Action("VerificationCode", "Account")" alt="看不清？点击一下试试！" title="看不清？点击一下试试！"
+                         onclick="RefreshCode();" />
+                    @*</a>*@
+                    @Html.ValidationMessageFor(m => m.VerificationCode)
+                </div>
+                <div class="loginbox-submit" style="text-align: center;">
+                    <input type="submit" class="btn btn-primary btn-block" value="登录" style="width: 150px;" />
+                </div>             
+            }
+            
+            
+            
+        </div>
+        <div class="logobox" style="text-align: center; line-height: 35px;">
+            @*&copy;*@
+        </div>
+    </div>
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Scripts/UI/Bootstrap/js/bootstrap.min.js"></script>
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Areas/Backstage/Content/JS/Login.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            //初始化LOGIN登录验证
+            InitAppValidate.init();
+        });
+        //刷新验证码
+        function RefreshCode() {
+            var url = "@(Url.Action("VerificationCode", "Account"))?time=" + (new Date()).getTime();
+            document.getElementById("verificationCode_Img").src = url;  //url;
+        }
+    </script>
+</body>
+</html>
