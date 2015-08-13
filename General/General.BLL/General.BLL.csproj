@@ -43,6 +43,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serverice\System\AccountService.cs" />
+    <Compile Include="Serverice\System\SystemButtonService.cs" />
     <Compile Include="Serverice\System\SystemMenuService.cs" />
     <Compile Include="Serverice\System\SystemRoleService.cs" />
     <Compile Include="Serverice\System\UserInfoService.cs" />

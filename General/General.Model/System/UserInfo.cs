@@ -19,6 +19,20 @@ namespace General.Model
         {
         }
         /// <summary>
+        /// 账户名称
+        /// </summary>
+        public string LoginName { get; set; }
+        /// <summary>
+        /// 账户密码
+        /// </summary>
+        public string LoginPwd { get; set; }
+        
+        /// <summary>
+        /// 所属角色
+        /// </summary>
+        public virtual SystemRole Role { get; set; }
+
+        /// <summary>
         /// 性别 男/女
         /// </summary>
         [StringLength(2), Display(Name = "性别")]

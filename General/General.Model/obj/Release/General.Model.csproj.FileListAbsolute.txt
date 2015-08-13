@@ -12,3 +12,17 @@ E:\程亚兵\General.test\General\General.Model\bin\Release\zh-Hans\EntityFramew
 E:\程亚兵\General.test\General\General.Model\obj\Release\General.Model.csprojResolveAssemblyReference.cache
 E:\程亚兵\General.test\General\General.Model\obj\Release\General.Model.dll
 E:\程亚兵\General.test\General\General.Model\obj\Release\General.Model.pdb
+E:\VS_NET\MVC\General.test\General\General.Model\bin\Release\General.Model.dll.config
+E:\VS_NET\MVC\General.test\General\General.Model\bin\Release\General.Model.dll
+E:\VS_NET\MVC\General.test\General\General.Model\bin\Release\General.Model.pdb
+E:\VS_NET\MVC\General.test\General\General.Model\bin\Release\EntityFramework.dll
+E:\VS_NET\MVC\General.test\General\General.Model\bin\Release\EntityFramework.SqlServer.dll
+E:\VS_NET\MVC\General.test\General\General.Model\bin\Release\General.Common.dll
+E:\VS_NET\MVC\General.test\General\General.Model\bin\Release\General.Common.pdb
+E:\VS_NET\MVC\General.test\General\General.Model\bin\Release\EntityFramework.xml
+E:\VS_NET\MVC\General.test\General\General.Model\bin\Release\EntityFramework.SqlServer.xml
+E:\VS_NET\MVC\General.test\General\General.Model\bin\Release\zh-Hans\EntityFramework.resources.dll
+E:\VS_NET\MVC\General.test\General\General.Model\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\VS_NET\MVC\General.test\General\General.Model\obj\Release\General.Model.csprojResolveAssemblyReference.cache
+E:\VS_NET\MVC\General.test\General\General.Model\obj\Release\General.Model.dll
+E:\VS_NET\MVC\General.test\General\General.Model\obj\Release\General.Model.pdb

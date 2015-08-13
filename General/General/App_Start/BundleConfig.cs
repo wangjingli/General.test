@@ -16,7 +16,7 @@ namespace General.Web
                         "~/Content/AppBackstage.js"));
             //jQuery
             bundles.Add(new ScriptBundle("~/Compression/js/jquery").Include(
-                        "~/Scripts/UI/Bootstrap/js/jquery-1.11.1.min.js"));
+                        "~/Scripts/UI/Bootstrap/js/jquery-2.0.3.min.js"));//jquery-1.11.1.min.js
 
             //jQuery 表单验证
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(

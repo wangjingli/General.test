@@ -127,11 +127,24 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="Webdiyer.MvcPager, Version=3.0.2015.521, Culture=neutral, PublicKeyToken=f6872c5a09aed72c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Webdiyer.MvcPager.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease">
       <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppCode\AuthorizeFilterAttribute.cs.txt" />
+    <Compile Include="AppCode\AuthorizeFilterAttribute.cs" />
+    <Compile Include="AppCode\BaseController.cs" />
+    <Compile Include="AppCode\ChineseToSpell.cs" />
+    <Compile Include="AppCode\Class1.cs" />
+    <Content Include="AppCode\ViewPageAttribute.cs.txt" />
+    <Content Include="AppCode\BaseController.cs.txt" />
+    <Compile Include="AppCode\unity.cs" />
+    <Compile Include="AppCode\ViewPageAttribute.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="Areas\Backstage\BackstageAreaRegistration.cs" />
     <Compile Include="Areas\Backstage\Controllers\AccountController.cs" />
@@ -154,15 +167,64 @@
     <Content Include="Areas\Backstage\Content\Images\favicon.ico" />
     <Content Include="Areas\Backstage\Content\Images\log.png" />
     <Content Include="Areas\Backstage\Content\Images\UserHead\admin.gif" />
+    <Content Include="Areas\Backstage\Content\JS\app.js" />
     <Content Include="Areas\Backstage\Content\JS\BackstageApp.js" />
     <Content Include="Areas\Backstage\Content\JS\EasyuiLayoutHome.js" />
     <Content Include="Areas\Backstage\Content\JS\Login.js" />
+    <Content Include="Areas\Backstage\Content\JS\tool.js" />
     <Content Include="Content\AppBackstage.js" />
     <Content Include="Content\Images\bg.jpg" />
     <Content Include="Content\Images\favicon.ico" />
     <Content Include="Content\Images\log.png" />
     <Content Include="Global.asax" />
+    <Content Include="lib\Webdiyer.MvcPager.dll" />
+    <Content Include="lib\Webdiyer.MvcPager.xml" />
     <Content Include="Scripts\Cuetone\info.mp3" />
+    <Content Include="Scripts\ExtensionPlug\ajaxfileupload\ajaxfileupload.js" />
+    <Content Include="Scripts\ExtensionPlug\easydropdown\css\default.css" />
+    <Content Include="Scripts\ExtensionPlug\easydropdown\jquery.easydropdown.js" />
+    <Content Include="Scripts\ExtensionPlug\easydropdown\jquery.easydropdown.min.js" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\1_b.jpg" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\1_s.jpg" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\2_b.jpg" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\2_s.jpg" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\3_b.jpg" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\3_s.jpg" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\4_b.jpg" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\4_s.jpg" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\5_b.jpg" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\5_s.jpg" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\ajax.txt" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\iframe.html" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\demo\index.html" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\lib\jquery-1.10.1.min.js" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\lib\jquery-1.9.0.min.js" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\lib\jquery.mousewheel-3.0.6.pack.js" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\blank.gif" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\fancybox_loading%402x.gif" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\fancybox_loading.gif" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\fancybox_overlay.png" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\fancybox_sprite%402x.png" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\fancybox_sprite.png" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\helpers\fancybox_buttons.png" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\helpers\jquery.fancybox-buttons.css" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\helpers\jquery.fancybox-buttons.js" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\helpers\jquery.fancybox-media.js" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\helpers\jquery.fancybox-thumbs.css" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\helpers\jquery.fancybox-thumbs.js" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\jquery.fancybox.css" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\jquery.fancybox.js" />
+    <Content Include="Scripts\ExtensionPlug\fancybox\source\jquery.fancybox.pack.js" />
+    <Content Include="Scripts\ExtensionPlug\jquery.serializeJSON\jquery.serializeJSON.min.js" />
+    <Content Include="Scripts\ExtensionPlug\jqueryValidate\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\ExtensionPlug\jqueryValidate\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\ExtensionPlug\jqueryValidate\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\ExtensionPlug\jqueryValidate\jquery.validate.js" />
+    <Content Include="Scripts\ExtensionPlug\jqueryValidate\jquery.validate.min.js" />
+    <Content Include="Scripts\ExtensionPlug\jqueryValidate\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\ExtensionPlug\jqueryValidate\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\ExtensionPlug\unobtrusive-ajax\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\html5shiv.min.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\Plug-JS\jquery.serializeJSON\jquery.serializeJSON.min.js" />
@@ -177,13 +239,30 @@
     <Content Include="Areas\Backstage\Views\System\Menu.cshtml" />
     <Content Include="Areas\Backstage\Views\System\Role.cshtml" />
     <Content Include="Areas\Backstage\Views\System\RoleAdd.cshtml" />
+    <Content Include="Areas\Backstage\Views\System\_Table_Roles.cshtml" />
+    <Content Include="Areas\Backstage\Views\System\EditRole.cshtml" />
+    <Content Include="Areas\Backstage\Views\System\SystemUser.cshtml" />
+    <Content Include="Areas\Backstage\Views\System\_Table_SystemUser.cshtml" />
+    <Content Include="Areas\Backstage\Views\System\UserAdd.cshtml" />
+    <Content Include="Areas\Backstage\Views\System\RoleMenu.cshtml" />
+    <Content Include="Areas\Backstage\Views\System\RoleDropDownList.cshtml" />
+    <Content Include="Areas\Backstage\Views\System\MenuPro.cshtml" />
+    <Content Include="Areas\Backstage\Views\System\RoleButton.cshtml" />
+    <None Include="Scripts\ExtensionPlug\fancybox\.gitattributes" />
+    <None Include="Scripts\ExtensionPlug\fancybox\CHANGELOG.md" />
+    <None Include="Scripts\ExtensionPlug\fancybox\README.md" />
+    <None Include="Scripts\ExtensionPlug\fancybox\sprite.psd" />
     <None Include="Scripts\Plug-JS\jqueryValidate\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\Plug-JS\jqueryValidate\jquery.validate.js" />
     <Content Include="Scripts\Plug-JS\jqueryValidate\jquery.validate.min.js" />
     <Content Include="Scripts\Plug-JS\jqueryValidate\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\Plug-JS\jqueryValidate\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\Plug-JS\placeholder\placeholder.js" />
+    <Content Include="Scripts\Plug-JS\placeholder\placeholder.css" />
+    <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\UI\Bootstrap\css\animate.min.css" />
     <Content Include="Scripts\UI\Bootstrap\css\bootstrap.min.css" />
+    <Content Include="Scripts\UI\Bootstrap\css\bootstrapValidator.min.css" />
     <Content Include="Scripts\UI\Bootstrap\css\dataTables.bootstrap.css" />
     <Content Include="Scripts\UI\Bootstrap\css\demo.min.css" />
     <Content Include="Scripts\UI\Bootstrap\css\font-awesome.min.css" />
@@ -280,12 +359,14 @@
     <Content Include="Scripts\UI\Bootstrap\js\generalAdmin.js" />
     <Content Include="Scripts\UI\Bootstrap\js\generalAdmin.min.js" />
     <Content Include="Scripts\UI\Bootstrap\js\html5shiv.js" />
+    <None Include="Scripts\UI\Bootstrap\js\jquery-1.11.1-vsdoc.js" />
     <Content Include="Scripts\UI\Bootstrap\js\jquery-1.11.1.js" />
     <Content Include="Scripts\UI\Bootstrap\js\jquery-1.11.1.min.js" />
     <Content Include="Scripts\UI\Bootstrap\js\jquery-2.0.3.min.js" />
     <Content Include="Scripts\UI\Bootstrap\js\jquery-ui-1.10.4.custom.js" />
     <Content Include="Scripts\UI\Bootstrap\js\knob\jquery.knob.js" />
     <Content Include="Scripts\UI\Bootstrap\js\nestable\jquery.nestable.min.js" />
+    <Content Include="Scripts\UI\Bootstrap\js\respond.min.js" />
     <Content Include="Scripts\UI\Bootstrap\js\select2\select2.js" />
     <Content Include="Scripts\UI\Bootstrap\js\skins.min.js" />
     <Content Include="Scripts\UI\Bootstrap\js\slider\jQRangeSlider\jQAllRangeSliders-withRuler-min.js" />
@@ -1105,9 +1186,11 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\UI\Bootstrap\js\jquery-1.11.1.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="111111111111111111\" />
+    <Folder Include="App_Code\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

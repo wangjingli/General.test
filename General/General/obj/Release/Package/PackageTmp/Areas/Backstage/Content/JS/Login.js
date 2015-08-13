@@ -3,8 +3,9 @@
         $('#LoginForm input').keypress(function (e) {
             if (e.which == 13) {
                 if ($('#LoginForm').validate().form()) {
-                    //alert("验证通过")
+                    //alert(0);
                     $('#LoginForm').submit();
+                    //alert(1);
                 }
                 return false;
             }

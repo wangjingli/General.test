@@ -1,0 +1,149 @@
+﻿@using General.AppCode
+@model IEnumerable<ActionPermission>
+@{
+    ViewBag.Title = "配置角色按钮";
+    Layout = "~/Areas/Backstage/Views/Shared/_Layout.cshtml";
+    ViewBag.Nav = new List<string>() { "系统设置", "配置角色按钮" };
+}
+@section Styles{
+    <link href="~/Scripts/UI/Bootstrap/css/jquery.treegrid.css" rel="stylesheet" />
+    <style type="text/css">
+        
+    </style>
+}
+@section Scripts{
+    @*<script src="~/Scripts/jquery-1.8.2.js"></script>*@
+    <script src="~/Scripts/UI/Bootstrap/js/datatable/datatables-init.js"></script>
+    <script src="~/Scripts/UI/Bootstrap/js/datatable/dataTables.bootstrap.min.js"></script>
+    <script src="~/Scripts/UI/Bootstrap/js/treegrid/jquery.treegrid.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.treeTable').treegrid({ treeColumn: 2 });
+        });
+
+        //发送处理消息
+        function send(_list) {
+            $.ajax({
+                url: '@Url.Action("SaveRoleButton", "System")',
+                type: 'post',
+                dataType: "json",
+                data: _list,
+                success: function (result) {
+                    if (result.Code == 1) {
+                        Notify(result.msg, 'bottom-right', '5000', 'success', 'fa-edit', true);
+                    }
+                    else {
+                        Notify(result.msg, 'bottom-right', '5000', 'danger', 'fa-edit', true);
+                    }
+                }
+            });
+        }
+
+        function save() {
+            var _count = 0;
+            var _list = {};
+            _list["roleid"] = "@ViewBag.RoleID";
+            $("#TableBody input[id^='Check-id-']:checked").each(function (index, element) {
+                _count++;
+                _list["arrayMune[" + index + "].Menu"] = "";
+                _list["arrayMune[" + index + "].Button"] = element.id.replace('Check-id-', '');
+            });
+            if (_count == 0) {
+                if (confirm("将清空此角色的所有菜单权限！是否继续?")) {
+                    send(_list);
+                }
+                else {
+                    Notify("操作已取消", 'bottom-right', '5000', 'success', 'fa-edit', true);
+                }
+            }
+            else { send(_list); }
+
+
+        }
+    </script>
+}
+<div class="row">
+    <div class="col-xs-12 col-md-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue manage-title-box">
+                <span class="widget-caption"><i class="typcn typcn-flow-merge"></i>&nbsp;配置 <span
+                    style="color: red;">@ViewBag.RoleName</span> 的按钮权限</span>
+                <div class="widget-buttons">
+                    <a href="#" data-toggle="maximize" title="拉伸"><i class="fa fa-expand"></i></a>
+                </div>
+            </div>
+            <div class="widget-body">
+                <div class="table-toolbar">
+                    <label>
+                        <a href="javascript:save()" class="btn btn-primary"><i class="icon fa fa-save"></i>保存配置</a>
+                    </label>
+                    <label>
+                        <a href="@Url.Action("Role", "System")" class="btn btn-danger"><i class="icon fa fa-mail-reply-all">
+                        </i>返回角色列表</a>
+                    </label>
+                </div>
+                <table class="treeTable table table-bordered table-hover">
+                    <thead>
+                        <tr role="row">
+                            <th style="width: 50px; text-align: center;">
+                            </th>
+                            <th style="width: 50px; text-align: center;">
+                                <div style="text-align: center;">
+                                    <label>
+                                        <input type="checkbox" id="CheckAll"><span class="text"></span>
+                                    </label>
+                                </div>
+                            </th>
+                            <th>
+                                区域名称(Area)
+                            </th>
+                            <th>
+                                控制器(Controller)
+                            </th>
+                            <th>
+                                ActionName
+                            </th>
+                            <th>
+                                描述
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="TableBody">
+                        @{
+                            int index = 1;
+                            foreach (var item in Model)
+                            {
+                            <tr class="@("treegrid-" + item.AreaName + "." + item.ControllerName + "." + item.ActionName)">
+                                <td style="text-align: center;">
+                                    @index
+                                </td>
+                                <td>
+                                    <div style="text-align: center;">
+                                        <label>
+                                            <input type="checkbox" id='@("Check-id-" + item.AreaName + "." + item.ControllerName + "." + item.ActionName)' checked="@(((List<ActionPermission>)ViewBag.hasButtons).Contains(item) == true ? true : false)"><span
+                                                class="text"></span>
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>
+                                    @item.AreaName
+                                </td>
+                                <td>
+                                    @item.ControllerName
+                                </td>
+                                <td>
+                                    @item.ActionName
+                                </td>
+                                <td>
+                                    @item.Description
+                                </td>
+                            </tr>
+                                index++;
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

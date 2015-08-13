@@ -17,11 +17,15 @@ namespace General.DAL
         /// </summary>
         public static IAccountRepository AccountRep { get { return new AccountRepository(); } }
 
-
         /// <summary>
         /// 系统菜单
         /// </summary>
         public static ISystemMenuRepository SystemMenuRep { get { return new SystemMenuRepository(); } }
+
+        /// <summary>
+        /// 系统按钮
+        /// </summary>
+        public static ISystemButtonRepository SystemButtonRep { get { return new SystemButtonRepository(); } }
 
         /// <summary>
         /// 系统角色

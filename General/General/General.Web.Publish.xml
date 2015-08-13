@@ -1,47 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
   <publishProfile publishUrl="F:\11F平台" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Areas/Backstage/Views/System/EditRole.cshtml" publishTime="07/13/2015 15:22:02" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/datebox_arrow.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/validatebox_warning.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/user.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/black/searchbox.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/spinner.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/gray/slider.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/css/font-awesome.min.css" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="bin/General.Common.dll" publishTime="07/08/2015 15:04:00" />
+    <file relUrl="bin/General.Common.dll" publishTime="08/13/2015 11:33:00" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/searchbox_button.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/easyui.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/tooltip.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/dialog.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/tabs_icons.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/default/datagrid.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-red/validatebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/black/menubutton.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/messager.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/edit_add.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/validatebox.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/datagrid.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="bin/EntityFramework.dll" publishTime="06/08/2015 11:19:16" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/large_chart.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="bin/zh-Hans/EntityFramework.resources.dll" publishTime="06/09/2015 18:03:32" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/accordion_arrows.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/validatebox_warning.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/menu.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/jqueryValidate/jquery.validate.min.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Bootstrap/js/datatable/dataTables.tableTools.min.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/spinner_arrows.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.mobile.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/datebox.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Bootstrap/js/charts/morris/raphael-2.0.2.min.js" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/fancybox_loading@2x.gif" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/slider_handle.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/morris/morris.js" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/searchbox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/validatebox_warning.png" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Bootstrap/js/html5shiv.js" publishTime="07/06/2015 10:23:57" />
+    <file relUrl="Scripts/jquery-1.8.2.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/menu.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/layout.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="bin/zh-Hans/System.Web.Helpers.resources.dll" publishTime="06/29/2015 21:46:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/validatebox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/combo.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/blank.gif" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/pagination_icons.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="bin/General.Common.pdb" publishTime="07/08/2015 15:04:00" />
+    <file relUrl="bin/General.Common.pdb" publishTime="08/13/2015 11:32:59" />
     <file relUrl="Scripts/UI/Easyui/jquery.easyui.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/progressbar.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.datetimespinner.js" publishTime="06/29/2015 23:44:40" />
@@ -59,10 +60,8 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/validatebox_warning.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/dialog.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Content/AppBackstage.js" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/default/menubutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/datagrid.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Areas/Backstage/Views/Shared/_MenuPage.cshtml" publishTime="07/02/2015 14:17:13" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro/images/tabs_icons.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Areas/Backstage/Views/Shared/_MenuPage.cshtml" publishTime="07/29/2015 22:27:54" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/panel_tools.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/flot/jquery.flot.selection.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/tree_icons.png" publishTime="06/29/2015 23:44:40" />
@@ -75,14 +74,13 @@
     <file relUrl="Scripts/Plug-JS/jquery.serializeJSON/jquery.serializeJSON.min.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/propertygrid.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/menubutton.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Areas/Backstage/Views/System/Role.cshtml" publishTime="07/08/2015 16:17:54" />
+    <file relUrl="Areas/Backstage/Views/System/Role.cshtml" publishTime="08/10/2015 22:49:54" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/combobox.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/black/window.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/window.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.accordion.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/icons/ui-menu-blue.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/fonts/typicons.ttf" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/black/images/blank.gif" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/src/jquery.propertygrid.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/js/bootstrap.min.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/textbox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/tree.css" publishTime="06/29/2015 23:44:42" />
@@ -90,14 +88,15 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/datagrid.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/black/progressbar.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/window.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Bootstrap/js/charts/morris/raphael-2.0.2.min.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/datagrid_icons.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/ajax.txt" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/datagrid_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/validatebox_warning.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/slider.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/fonts/fontawesome-webfont.eot" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/slider_handle.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/datagrid_icons.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/validatebox.css" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/UI/Easyui/themes/icons/ui-menu-blue.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/searchbox_button.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/tree_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/filebox.css" publishTime="06/29/2015 23:44:44" />
@@ -115,11 +114,13 @@
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/datalist.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/default/layout.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/edit_remove.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/respond.min.js" publishTime="07/22/2015 15:30:26" />
     <file relUrl="Scripts/UI/Bootstrap/fonts/typicons.svg" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.combobox.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/validatebox.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/menu_arrows.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/panel_tools.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="bin/System.Net.Http.xml" publishTime="06/23/2012 01:00:28" />
+    <file relUrl="lib/Webdiyer.MvcPager.dll" publishTime="07/10/2015 16:11:50" />
     <file relUrl="Scripts/Plug-JS/jqueryValidate/jquery.validate.unobtrusive.min.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/linkbutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/spinner_arrows.png" publishTime="06/29/2015 23:44:42" />
@@ -127,46 +128,46 @@
     <file relUrl="Scripts/UI/Bootstrap/js/colorpicker/jquery.minicolors.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/datebox_arrow.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/tabs.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Bootstrap/js/jquery-1.11.1.min.js" publishTime="07/02/2015 10:57:36" />
+    <file relUrl="Scripts/html5shiv.min.js" publishTime="07/22/2015 15:30:26" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/flot/jquery.flot.orderBars.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/datalist.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/easyui.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.datebox.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/4_s.jpg" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/chartjs/chartjs-init.js" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/panel_tools.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Areas/Backstage/Views/System/SystemUser.cshtml" publishTime="08/08/2015 15:46:34" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/tabs.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/tabs_icons.png" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Bootstrap/fonts/weathericons-regular-webfont.ttf" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/UI/Easyui/themes/icons/blogger.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/menu.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/datagrid.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/panel_tools.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/layout.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/js/datetime/bootstrap-timepicker.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/default/accordion.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/tooltip.css" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/blank.gif" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/flot/jquery.flot.pie.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/propertygrid.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/helpers/fancybox_buttons.png" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/loading.gif" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro/images/menu_arrows.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/icons/email_edit.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Bootstrap/js/html5shiv.min.js" publishTime="07/06/2015 11:24:35" />
+    <file relUrl="Scripts/ExtensionPlug/easydropdown/css/default.css" publishTime="07/14/2015 17:39:20" />
+    <file relUrl="Scripts/UI/Bootstrap/js/html5shiv.min.js" publishTime="07/06/2015 11:24:36" />
     <file relUrl="Scripts/UI/Bootstrap/js/validation/bootstrapValidator.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/messager_icons.png" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Bootstrap/js/generalAdmin.min.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/numberbox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/default/messager.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/pagination_icons.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/gray/messager.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="bin/Webdiyer.MvcPager.xml" publishTime="07/10/2015 16:11:50" />
     <file relUrl="Scripts/Plug-JS/jqueryValidate/jquery.validate.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Bootstrap/js/datatable/ZeroClipboard.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/accordion_arrows.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/jquery-1.8.2.js" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Areas/Backstage/Views/Account/Login.cshtml" publishTime="07/26/2015 20:06:52" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/splitbutton.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/plugins/jquery.combogrid.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro/pagination.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/Plug-JS/placeholder/placeholder.css" publishTime="07/09/2015 16:19:10" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.linkbutton.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/default/propertygrid.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/messager.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/js/skins.min.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/color.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/datagrid_icons.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/slider_handle.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/combobox.css" publishTime="06/29/2015 23:44:42" />
@@ -177,6 +178,8 @@
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/calendar_arrows.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/propertygrid.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/propertygrid.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/datagrid_icons.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="bin/System.Web.Razor.dll" publishTime="06/29/2015 21:46:40" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/searchbox_button.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/spinner.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/accordion_arrows.png" publishTime="06/29/2015 23:44:44" />
@@ -194,13 +197,16 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/messager.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/tree.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/tabs.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/menu_arrows.png" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/loading.gif" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/pagination_icons.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/4_b.jpg" publishTime="07/14/2015 17:39:20" />
+    <file relUrl="Scripts/UI/Easyui/src/jquery.draggable.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/spinner_arrows.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/slider.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/messager_icons.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/dialog.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/default/window.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/progressbar.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/img/favicon.png" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/datebox_arrow.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/fonts/weathericons-regular-webfont.svg" publishTime="06/29/2015 23:44:38" />
@@ -215,7 +221,7 @@
     <file relUrl="Scripts/UI/Bootstrap/img/avatars/Matt-Cheuvront.jpg" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/layout.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/easyui.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Areas/Backstage/Views/Home/Index.cshtml" publishTime="07/01/2015 18:59:35" />
+    <file relUrl="Areas/Backstage/Views/Home/Index.cshtml" publishTime="07/01/2015 18:59:36" />
     <file relUrl="bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll" publishTime="06/29/2015 21:46:46" />
     <file relUrl="bin/System.Web.WebPages.Deployment.dll" publishTime="06/29/2015 21:46:40" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/home.png" publishTime="06/29/2015 23:44:42" />
@@ -223,10 +229,11 @@
     <file relUrl="Scripts/UI/Easyui/themes/black/tabs.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/tooltip.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/layout_arrows.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-red/textbox.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/combo.css" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/fancybox_loading.gif" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/panel_tools.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/calendar.css" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/UI/Easyui/plugins/jquery.parser.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Bootstrap/fonts/typicons.woff" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/datebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/pagination.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/blank.gif" publishTime="06/29/2015 23:44:44" />
@@ -235,7 +242,7 @@
     <file relUrl="Scripts/UI/Easyui/themes/default/progressbar.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/black/combobox.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/spinner.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/default/linkbutton.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Bootstrap/js/generalAdmin.min.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/propertygrid.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/layout.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/tabs.css" publishTime="06/29/2015 23:44:42" />
@@ -247,10 +254,11 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/menubutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/menubutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/combo_arrow.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/tabs_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/flot/jquery.flot.time.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/blank.gif" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/menubutton.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/datebox.css" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Areas/Backstage/Views/System/_Table_SystemUser.cshtml" publishTime="08/09/2015 14:25:10" />
     <file relUrl="Scripts/UI/Bootstrap/css/weather-icons.min.css" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/tree.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.pagination.js" publishTime="06/29/2015 23:44:40" />
@@ -267,23 +275,26 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/menu_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/window.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/css/skins/black.min.css" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/datagrid_icons.png" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/panel_tools.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/progressbar.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/calendar_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/iframe.html" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/tooltip.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/splitbutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/undo.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-red/window.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/blank.gif" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/validatebox.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.window.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/combobox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/validatebox_warning.png" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="07/01/2015 11:16:07" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="07/01/2015 11:16:08" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/validatebox_warning.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/searchbox.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/validatebox_warning.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/menubutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/messager.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Areas/Backstage/Content/JS/tool.js" publishTime="08/08/2015 17:37:00" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/tree.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/default/tree.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/menubutton.css" publishTime="06/29/2015 23:44:44" />
@@ -299,12 +310,11 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/pagination_icons.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/tabs.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/plugins/jquery.menubutton.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/3_s.jpg" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/tabs.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/datagrid_icons.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/calendar.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/default/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/numberbox.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/accordion.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/filebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/validatebox.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/img/avatars/Osvaldus-Valutis.jpg" publishTime="06/29/2015 23:44:38" />
@@ -312,35 +322,36 @@
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/panel_tools.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/reload.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/filebox.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-red/linkbutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/messager.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/default/splitbutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/help.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/searchbox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/cut.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/splitbutton.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="bin/System.Web.WebPages.dll" publishTime="06/29/2015 21:46:40" />
+    <file relUrl="Scripts/UI/Bootstrap/js/jquery-2.0.3.min.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/slider_handle.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/panel.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/progressbar.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/combo.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/tooltip.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/window.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/plugins/jquery.parser.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/searchbox.css" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/UI/Easyui/themes/gray/messager.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/tabs.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/mini_add.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="06/29/2015 21:46:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/calendar.css" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/messager.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/validatebox_warning.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Bootstrap/fonts/glyphicons-halflings-regular.woff" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/pagination_icons.png" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/jqueryValidate/jquery.validate.unobtrusive.js" publishTime="07/14/2015 17:39:20" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/panel.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/img/avatars/John-Smith.jpg" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/menu.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.searchbox.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/splitbutton.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/tabs_icons.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/loading.gif" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/datebox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/img/treegrid/expand.png" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/UI/Easyui/plugins/jquery.datagrid.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/jqueryValidate/jquery.validate.unobtrusive.min.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.datetimebox.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/default/numberbox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/default/calendar.css" publishTime="06/29/2015 23:44:42" />
@@ -348,37 +359,40 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/panel_tools.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/tree_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/default/tabs.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Areas/Backstage/Content/Images/favicon.ico" publishTime="07/01/2015 14:21:31" />
-    <file relUrl="Web.config" publishTime="07/08/2015 15:04:51" />
+    <file relUrl="Areas/Backstage/Content/Images/favicon.ico" publishTime="07/01/2015 14:21:32" />
+    <file relUrl="Web.config" publishTime="08/12/2015 11:34:34" />
+    <file relUrl="Scripts/UI/Easyui/themes/default/slider.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/fonts/glyphicons-halflings-regular.eot" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Bootstrap/img/avatars/divyia.jpg" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/fancybox_overlay.png" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/tree.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/chartjs/Chart.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Bootstrap/css/skins/orange.min.css" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Bootstrap/js/bootbox/bootbox.js" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/UI/Bootstrap/js/bootbox/bootbox.js" publishTime="08/09/2015 15:04:18" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/pagination.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/img/attach-red.png" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/validatebox_warning.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/js/datatable/datatables-init.js" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/index.html" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/loading.gif" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="bin/System.Web.WebPages.Deployment.xml" publishTime="06/29/2015 21:46:40" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/tabs_icons.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/accordion.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/menu.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/progressbar.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/tree_icons.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/fonts/fontawesome-webfont.svg" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/searchbox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/messager_icons.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/spinner.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/searchbox_button.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/black/tree.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.accordion.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/propertygrid.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="bin/General.Model.dll" publishTime="07/08/2015 15:04:01" />
-    <file relUrl="bin/General.dll" publishTime="07/08/2015 18:57:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/gray/images/loading.gif" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="bin/General.Model.dll" publishTime="08/13/2015 11:33:07" />
+    <file relUrl="bin/General.dll" publishTime="08/13/2015 16:16:58" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/flot/jquery.flot.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/loading.gif" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/menu_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/pagination.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/datagrid.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/messager_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/slider_handle.png" publishTime="06/29/2015 23:44:40" />
@@ -392,18 +406,21 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="bin/System.Web.Http.dll" publishTime="06/29/2015 21:46:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/combo.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/filebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/combo_arrow.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/dialog.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/black/images/datagrid_icons.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="bin/zh-Hans/System.Net.Http.resources.dll" publishTime="07/10/2012 23:31:08" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/layout_arrows.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/calendar.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="bin/zh-Hans/System.Net.Http.Formatting.resources.dll" publishTime="06/29/2015 21:46:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/loading.gif" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/default/splitbutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/validatebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="bin/zh-Hans/System.Web.Mvc.resources.dll" publishTime="06/29/2015 21:46:46" />
-    <file relUrl="bin/Antlr3.Runtime.pdb" publishTime="07/01/2015 11:16:07" />
+    <file relUrl="bin/Antlr3.Runtime.pdb" publishTime="07/01/2015 11:16:08" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/mini_edit.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/datalist.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/loading.gif" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/color.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/js/fuelux/wizard/wizard-custom.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/datagrid_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/searchbox_button.png" publishTime="06/29/2015 23:44:44" />
@@ -412,13 +429,12 @@
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/tree.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/validatebox_warning.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/layout.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/gray/images/searchbox_button.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/img/attach-green.png" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.calendar.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="bin/General.Model.pdb" publishTime="07/08/2015 15:04:01" />
-    <file relUrl="bin/Antlr3.Runtime.dll" publishTime="07/01/2015 11:16:07" />
+    <file relUrl="bin/General.Model.pdb" publishTime="08/13/2015 11:33:07" />
+    <file relUrl="bin/Antlr3.Runtime.dll" publishTime="07/01/2015 11:16:08" />
     <file relUrl="Content/Images/favicon.ico" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Areas/Backstage/Content/Images/UserHead/admin.gif" publishTime="07/01/2015 14:21:31" />
+    <file relUrl="Areas/Backstage/Content/Images/UserHead/admin.gif" publishTime="07/01/2015 14:21:32" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/slider_handle.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/linkbutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/datalist.css" publishTime="06/29/2015 23:44:42" />
@@ -426,24 +442,23 @@
     <file relUrl="Scripts/UI/Bootstrap/css/bootstrap.min.css" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/pagination.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/accordion.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Bootstrap/css/demo.min.css" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.tree.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.combotree.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/layout.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="bin/System.Net.Http.Formatting.dll" publishTime="06/29/2015 21:46:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/linkbutton.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/textbox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/validatebox_warning.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/datalist.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.panel.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/pagination.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="bin/System.Web.WebPages.dll" publishTime="06/29/2015 21:46:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/accordion.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/black/filebox.css" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="bin/System.Net.Http.Formatting.dll" publishTime="06/29/2015 21:46:42" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.parser.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/textbox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.textbox.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Bootstrap/css/generalAdmin.min.css" publishTime="07/06/2015 18:44:18" />
+    <file relUrl="Scripts/UI/Bootstrap/css/generalAdmin.min.css" publishTime="07/06/2015 18:44:20" />
     <file relUrl="Scripts/UI/Bootstrap/css/dataTables.bootstrap.css" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/panel.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/menu_arrows.png" publishTime="06/29/2015 23:44:44" />
@@ -451,7 +466,6 @@
     <file relUrl="Scripts/UI/Bootstrap/css/jquery.treegrid.css" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/accordion.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/layout_arrows.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/icons/print.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/tabs_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/js/datetime/moment.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="bin/System.Web.Http.WebHost.dll" publishTime="06/29/2015 21:46:44" />
@@ -461,43 +475,46 @@
     <file relUrl="Scripts/UI/Easyui/themes/icons/filter.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/splitbutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/tabs_icons.png" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Areas/Backstage/Views/Shared/_Layout.cshtml" publishTime="07/06/2015 14:26:09" />
+    <file relUrl="Areas/Backstage/Views/Shared/_Layout.cshtml" publishTime="08/09/2015 22:29:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/spinner_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.window.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="bin/General.pdb" publishTime="07/08/2015 18:57:44" />
+    <file relUrl="bin/General.pdb" publishTime="08/13/2015 16:16:58" />
     <file relUrl="Scripts/UI/Bootstrap/img/sort_asc_disabled.png" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.layout.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/flot/jquery.flot.resize.js" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/Cuetone/info.mp3" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/numberbox.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/datebox_arrow.png" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="bin/Webdiyer.MvcPager.dll" publishTime="07/10/2015 16:11:50" />
     <file relUrl="Content/Images/bg.jpg" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/slider_handle.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/pagination.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Areas/Backstage/Views/Shared/Partial1.cshtml" publishTime="07/01/2015 18:31:18" />
+    <file relUrl="Areas/Backstage/Views/Shared/Partial1.cshtml" publishTime="07/01/2015 18:31:20" />
     <file relUrl="Scripts/UI/Easyui/themes/black/menu.css" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/numberbox.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/datebox_arrow.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/pagination_icons.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="bin/System.Web.Http.xml" publishTime="06/29/2015 21:46:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/tabs_icons.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/combo_arrow.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/js/datetime/daterangepicker.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/default/textbox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/no.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/tabs_icons.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/dialog.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/flot/jquery.flot.stack.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/validatebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Areas/Backstage/Views/Account/Index.cshtml" publishTime="06/29/2015 23:54:36" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/blank.gif" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/spinner.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/icons/filesave.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/pagination_icons.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="bin/EntityFramework.SqlServer.xml" publishTime="06/08/2015 11:19:16" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/layout_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/plugins/jquery.filebox.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/1_b.jpg" publishTime="07/14/2015 17:39:20" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/datebox.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/calendar.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/calendar_arrows.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/panel_tools.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/more.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/dialog.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Areas/Backstage/Content/JS/EasyuiLayoutHome.js" publishTime="07/01/2015 14:21:31" />
+    <file relUrl="Areas/Backstage/Content/JS/EasyuiLayoutHome.js" publishTime="07/01/2015 14:21:32" />
     <file relUrl="Scripts/UI/Bootstrap/img/sort_both.png" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/tabs_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/fonts/glyphicons-halflings-regular.svg" publishTime="06/29/2015 23:44:38" />
@@ -505,9 +522,9 @@
     <file relUrl="Scripts/UI/Easyui/themes/black/images/datebox_arrow.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/img/treegrid/file.png" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/spinner_arrows.png" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="bin/General.BLL.dll" publishTime="07/08/2015 15:04:03" />
+    <file relUrl="bin/General.BLL.dll" publishTime="08/13/2015 11:33:11" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/usertooli.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Areas/Backstage/Content/Images/bg.jpg" publishTime="07/01/2015 14:21:31" />
+    <file relUrl="Areas/Backstage/Content/Images/bg.jpg" publishTime="07/01/2015 14:21:32" />
     <file relUrl="Scripts/UI/Easyui/themes/default/combo.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/default/validatebox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/combobox.css" publishTime="06/29/2015 23:44:46" />
@@ -517,18 +534,18 @@
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/loading.gif" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.numberbox.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/fonts/weathericons-regular-webfont.eot" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="bin/General.DAL.dll" publishTime="07/08/2015 15:04:03" />
+    <file relUrl="bin/General.DAL.dll" publishTime="08/13/2015 11:33:09" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/slider.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/spinner.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/linkbutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.timespinner.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/menu_arrows.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/img/logo-inverted.png" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="bin/General.BLL.pdb" publishTime="07/08/2015 15:04:03" />
+    <file relUrl="bin/General.BLL.pdb" publishTime="08/13/2015 11:33:10" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/linkbutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.progressbar.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/panel.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/datagrid_icons.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/numberbox.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.dialog.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/datebox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/spinner.css" publishTime="06/29/2015 23:44:46" />
@@ -537,19 +554,20 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/propertygrid.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/layout.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/extend/treegrid.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro/tabs.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/accordion.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/linkbutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/pagination_icons.png" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="App_Data/TreeMenu.xml" publishTime="07/06/2015 17:43:26" />
+    <file relUrl="Scripts/UI/Easyui/themes/icons/large_picture.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/validatebox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/js/datatable/assets/swf/copy_csv_xls_pdf.swf" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/tree_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/menu_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/accordion_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/layout_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/black/filebox.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/css/skins/pink.min.css" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-green/datebox.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Areas/Backstage/Views/Shared/_Breadcrumb.cshtml" publishTime="07/01/2015 18:31:18" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/2_b.jpg" publishTime="07/14/2015 17:39:20" />
+    <file relUrl="Areas/Backstage/Views/Shared/_Breadcrumb.cshtml" publishTime="07/01/2015 18:31:20" />
     <file relUrl="Scripts/UI/Bootstrap/js/editors/wysiwyg/prettify.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/tooltip.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/spinner.css" publishTime="06/29/2015 23:44:44" />
@@ -557,7 +575,7 @@
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.tooltip.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/tree.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/default/dialog.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/combo_arrow.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/2_s.jpg" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Bootstrap/js/fuelux/spinner/fuelux.spinner.min.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.propertygrid.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/large_smartart.png" publishTime="06/29/2015 23:44:42" />
@@ -567,6 +585,7 @@
     <file relUrl="Scripts/UI/Easyui/themes/icons/clear.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/combo_arrow.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/slider.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Bootstrap/js/jquery-1.11.1.min.js" publishTime="07/02/2015 10:57:38" />
     <file relUrl="Scripts/UI/Easyui/themes/black/datebox.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/window.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/datagrid.css" publishTime="06/29/2015 23:44:46" />
@@ -578,30 +597,34 @@
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.resizable.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/menu.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/css/skins/blue.min.css" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/spinner_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/lib/jquery-1.10.1.min.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/combobox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.menu.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/3_b.jpg" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/easyui.css" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Areas/Backstage/Views/Account/Login.cshtml" publishTime="07/08/2015 16:26:59" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/pagination_icons.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Areas/Backstage/Views/System/Menu.cshtml" publishTime="07/08/2015 18:29:05" />
+    <file relUrl="Areas/Backstage/Views/System/Menu.cshtml" publishTime="08/13/2015 14:23:47" />
     <file relUrl="Scripts/UI/Bootstrap/img/avatars/Nicolai-Larson.jpg" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/combo.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/fonts/fontawesome-webfont.ttf" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="bin/General.DAL.pdb" publishTime="07/08/2015 15:04:03" />
+    <file relUrl="Scripts/ExtensionPlug/jqueryValidate/jquery.unobtrusive-ajax.min.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/spinner_arrows.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/img/treegrid/collapse.png" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/dialog.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/numberbox.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/js/select2/select2.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Bootstrap/js/respond.min.js" publishTime="07/22/2015 15:32:54" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/flot/flot-init.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Global.asax" publishTime="06/29/2015 21:46:30" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/messager.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/plugins/jquery.validatebox.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/pagination_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/tabs.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/easydropdown/jquery.easydropdown.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/numberbox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/js/treegrid/jquery.treegrid.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/combobox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/numberbox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/combo.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/lib/jquery-1.9.0.min.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.droppable.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/window.css" publishTime="06/29/2015 23:44:46" />
@@ -610,32 +633,32 @@
     <file relUrl="Scripts/UI/Bootstrap/js/charts/easypiechart/jquery.easypiechart.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/tree_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/calendar.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/accordion_arrows.png" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro/images/tabs_icons.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/js/toastr/toastr.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/tabs.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/combo_arrow.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/tabs_icons.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/jquery-1.8.3.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="bin/EntityFramework.SqlServer.dll" publishTime="06/08/2015 11:19:16" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/datebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/menubutton.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/datagrid.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/helpers/jquery.fancybox-thumbs.css" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/tree_icons.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/messager_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/datagrid_icons.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/default/datalist.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro/validatebox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/numberbox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/searchbox_button.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/searchbox.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/jquery.fancybox.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/spinner_arrows.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/easyui.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/calendar.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/plugins/jquery.combobox.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/helpers/jquery.fancybox-buttons.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/messager_icons.png" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/icons/filesave.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/5_b.jpg" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Bootstrap/js/datetime/bootstrap-datepicker.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/linkbutton.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Areas/Backstage/Content/JS/BackstageApp.js" publishTime="07/01/2015 14:21:31" />
+    <file relUrl="Areas/Backstage/Content/JS/BackstageApp.js" publishTime="07/01/2015 14:21:32" />
+    <file relUrl="Scripts/UI/Easyui/themes/icons/email_edit.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/black/linkbutton.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="bin/System.Web.WebPages.xml" publishTime="06/29/2015 21:46:40" />
     <file relUrl="Scripts/UI/Easyui/themes/default/panel.css" publishTime="06/29/2015 23:44:42" />
@@ -643,69 +666,81 @@
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/filebox.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/pagination.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/tree_icons.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/black/tooltip.css" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/jquery.fancybox.pack.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/panel_tools.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/datalist.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="bin/System.Web.Razor.xml" publishTime="06/29/2015 21:46:40" />
+    <file relUrl="Scripts/UI/Bootstrap/fonts/glyphicons-halflings-regular.woff" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Bootstrap/js/editors/summernote/summernote.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/datebox_arrow.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Bootstrap/img/temp1.png" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/combo_arrow.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/ExtensionPlug/unobtrusive-ajax/jquery.unobtrusive-ajax.min.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/combo_arrow.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/dialog.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Bootstrap/css/bootstrapValidator.min.css" publishTime="07/22/2015 15:34:46" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/pagination_icons.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/userRole.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/icons/blogger.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/linkbutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/accordion.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="bin/System.Web.Helpers.xml" publishTime="06/29/2015 21:46:40" />
+    <file relUrl="Scripts/ExtensionPlug/jqueryValidate/jquery.validate.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/email.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Areas/Backstage/Views/Web.config" publishTime="06/29/2015 22:57:58" />
-    <file relUrl="Scripts/UI/Easyui/src/jquery.propertygrid.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/blank.gif" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/calendar_arrows.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/css/skins/darkred.min.css" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/combo_arrow.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/black/messager.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/textbox.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/tree.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/Cuetone/info.mp3" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/datagrid.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/tree_icons.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/combo.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/src/jquery.draggable.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-green/splitbutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/messager_icons.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/validatebox.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/black/tooltip.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/combo_arrow.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/slider.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="bin/System.Web.Mvc.dll" publishTime="06/29/2015 21:46:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/tabs.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro/images/messager_icons.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/plugins/jquery.linkbutton.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/dialog.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/messager_icons.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Areas/Backstage/Content/JS/app.js" publishTime="08/09/2015 15:14:54" />
     <file relUrl="Scripts/UI/Bootstrap/img/sort_asc.png" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/menu_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/accordion_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/back.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/progressbar.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/slider.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/gray/searchbox.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/spinner_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Bootstrap/js/jquery-1.11.1.min.map" publishTime="08/08/2015 14:07:00" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/splitbutton.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Bootstrap/img/temp1.png" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/blank.gif" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/accordion_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/js/slider/jquery.nouislider.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/panel_tools.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/jquery-1.8.2.min.js" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Areas/Backstage/Views/System/UserAdd.cshtml" publishTime="08/09/2015 15:05:52" />
+    <file relUrl="Scripts/UI/Easyui/plugins/jquery.menubutton.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/combo.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/img/avatars/Javi-Jimenez.jpg" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/splitbutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/tree.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/icons/search.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="AppCode/BaseController.cs.txt" publishTime="08/09/2015 17:36:36" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro/tabs.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/datalist.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/black/panel.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/panel.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/numberbox.css" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/jqueryValidate/jquery.validate-vsdoc.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.datebox.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/propertygrid.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/menubutton.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/panel.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-red/window.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/slider.css" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/UI/Easyui/themes/default/datalist.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/spinner_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/progressbar.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/datebox_arrow.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/searchbox_button.png" publishTime="06/29/2015 23:44:44" />
@@ -713,12 +748,12 @@
     <file relUrl="Scripts/UI/Easyui/themes/black/images/accordion_arrows.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/blank.gif" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/layout_arrows.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Bootstrap/js/datatable/dataTables.bootstrap.min.js" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/black/spinner.css" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/menu_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro/images/menu_arrows.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/panel_tools.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/slider.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="bin/System.Web.Optimization.xml" publishTime="07/01/2015 11:16:07" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/dialog.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="bin/System.Web.Optimization.xml" publishTime="07/01/2015 11:16:08" />
+    <file relUrl="bin/System.Web.WebPages.Deployment.xml" publishTime="06/29/2015 21:46:40" />
     <file relUrl="Scripts/UI/Easyui/themes/mobile.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="bin/zh-Hans/System.Web.Http.resources.dll" publishTime="06/29/2015 21:46:46" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/mini_refresh.png" publishTime="06/29/2015 23:44:42" />
@@ -741,42 +776,48 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/layout_arrows.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/accordion_arrows.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/easyui.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/icons/search.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Areas/Backstage/Views/System/RoleMenu.cshtml" publishTime="07/28/2015 23:54:38" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/dialog.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/splitbutton.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/img/avatars/Stephanie-Walter.jpg" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/slider.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/helpers/jquery.fancybox-thumbs.js" publishTime="07/14/2015 17:39:20" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro/pagination.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/datagrid.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/spinner_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="App_Data/TreeMenu.xml" publishTime="08/10/2015 15:42:28" />
+    <file relUrl="AppCode/AuthorizeFilterAttribute.cs.txt" publishTime="08/09/2015 17:38:26" />
     <file relUrl="bin/System.Net.Http.WebRequest.dll" publishTime="07/10/2012 21:52:12" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/combo_arrow.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/js/nestable/jquery.nestable.min.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/datalist.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/loading.gif" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/icon.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/validatebox_warning.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Content/Images/log.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/panel_tools.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/black/combo.css" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/fancybox_sprite@2x.png" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/calendar.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/tree.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/plugins/jquery.datagrid.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/black/images/layout_arrows.png" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/src/jquery.calendar.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/fancybox_sprite.png" publishTime="07/14/2015 17:39:20" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/tabs_icons.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/textbox.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Bootstrap/img/attach-blue.png" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-green/datebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/img/attach-yellow.png" publishTime="06/29/2015 23:44:38" />
     <file relUrl="bin/System.Web.Mvc.xml" publishTime="06/29/2015 21:46:42" />
     <file relUrl="Scripts/UI/Easyui/themes/default/images/pagination_icons.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="bin/System.Net.Http.WebRequest.xml" publishTime="06/29/2012 01:00:12" />
-    <file relUrl="Areas/Backstage/Content/Images/log.png" publishTime="07/01/2015 14:21:31" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/spinner.css" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Areas/Backstage/Content/Images/log.png" publishTime="07/01/2015 14:21:32" />
+    <file relUrl="Scripts/UI/Easyui/themes/gray/slider.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/layout_arrows.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/icons/sum.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/helpers/jquery.fancybox-media.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/slider.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/man.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/plugins/jquery.linkbutton.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/default/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/combobox.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="bin/System.Web.Helpers.dll" publishTime="06/29/2015 21:46:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/slider.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/datebox.css" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/plugins/jquery.filebox.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/accordion_arrows.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/slider_handle.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/flot/jquery.flot.crosshair.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/numberbox.css" publishTime="06/29/2015 23:44:44" />
@@ -787,79 +828,85 @@
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/linkbutton.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/panel.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/dialog.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/gray/datagrid.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/searchbox_button.png" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/spinner_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="bin/System.Web.Helpers.dll" publishTime="06/29/2015 21:46:40" />
+    <file relUrl="Scripts/UI/Bootstrap/img/attach-blue.png" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/splitbutton.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/css/skins/teal.min.css" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/black/easyui.css" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/default/linkbutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/easypiechart/easypiechart-init.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/searchbox_button.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/black/accordion.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/layout_arrows.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/gray/images/loading.gif" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/searchbox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/calendar_arrows.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/datebox_arrow.png" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="bin/zh-Hans/System.Web.Razor.resources.dll" publishTime="06/29/2015 21:46:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/messager.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/jquery.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/js/jquery-ui-1.10.4.custom.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/filebox.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/searchbox_button.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/default/easyui.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/numberbox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/datebox_arrow.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/filebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/js/fuelux/treeview/tree-custom.min.js" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-green/searchbox.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="07/01/2015 11:16:07" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-red/textbox.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="07/01/2015 11:16:08" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/pagination.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/filebox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/datebox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/tabs.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="bin/System.Web.Razor.dll" publishTime="06/29/2015 21:46:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/validatebox_warning.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/layout.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.progressbar.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/morris/morris-init.js" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-green/tree.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/ExtensionPlug/jqueryValidate/jquery.unobtrusive-ajax.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/window.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="lib/Webdiyer.MvcPager.xml" publishTime="07/10/2015 16:11:50" />
     <file relUrl="Scripts/UI/Bootstrap/css/skins/azure.min.css" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro/splitbutton.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/default/slider.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/1_s.jpg" publishTime="07/14/2015 17:39:20" />
+    <file relUrl="bin/System.Net.Http.Formatting.xml" publishTime="06/29/2015 21:46:42" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.menu.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/progressbar.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Areas/Backstage/Views/System/RoleDropDownList.cshtml" publishTime="07/30/2015 23:54:54" />
+    <file relUrl="bin/EntityFramework.SqlServer.xml" publishTime="06/08/2015 11:19:16" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/messager.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/tree.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/tabs_icons.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/menu_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/black/images/layout_arrows.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/src/easyloader.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.treegrid.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="bin/zh-Hans/System.Web.WebPages.Razor.resources.dll" publishTime="06/29/2015 21:46:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/icons/cancel.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Views/Home/Index.cshtml" publishTime="07/06/2015 19:25:41" />
-    <file relUrl="packages.config" publishTime="07/01/2015 11:16:21" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-red/validatebox.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/combo.css" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Views/Home/Index.cshtml" publishTime="07/06/2015 19:25:42" />
+    <file relUrl="packages.config" publishTime="07/10/2015 14:12:56" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-red/combo.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/tooltip.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/tabs.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/black/numberbox.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/pagination.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Bootstrap/js/jquery-2.0.3.min.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/loading.gif" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/messager_icons.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="bin/zh-Hans/System.Web.Razor.resources.dll" publishTime="06/29/2015 21:46:44" />
+    <file relUrl="Scripts/UI/Bootstrap/css/demo.min.css" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/menubutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/info_button_16.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/large_clipart.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/plugins/jquery.splitbutton.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Areas/Backstage/Views/System/_Table_Roles.cshtml" publishTime="08/10/2015 22:50:48" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/window.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/tip.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Bootstrap/fonts/typicons.woff" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/helpers/jquery.fancybox-buttons.css" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Bootstrap/css/fontsCss.css" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="bin/WebGrease.dll" publishTime="07/01/2015 11:16:07" />
+    <file relUrl="bin/WebGrease.dll" publishTime="07/01/2015 11:16:08" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/datagrid.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/combo_arrow.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/numberbox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/calendar_arrows.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/menubutton.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/loading.gif" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/black/spinner.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/calendar.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/blank.gif" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/layout_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/combobox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/menu_arrows.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/default/filebox.css" publishTime="06/29/2015 23:44:42" />
@@ -867,22 +914,24 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/layout.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/tree_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/pagination_icons.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Areas/Backstage/Views/System/MenuPro.cshtml" publishTime="08/13/2015 16:37:43" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/pagination.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-gray/filebox.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/pagination_icons.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/css/skins/darkblue.min.css" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/spinner_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/black/datalist.css" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/datagrid_icons.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="bin/System.Web.Optimization.dll" publishTime="07/01/2015 11:16:07" />
+    <file relUrl="Scripts/UI/Easyui/plugins/jquery.combobox.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="bin/System.Web.Optimization.dll" publishTime="07/01/2015 11:16:08" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/flot/jquery.flot.tooltip.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.draggable.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/window.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/searchbox.css" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Areas/Backstage/Views/System/RoleButton.cshtml" publishTime="08/11/2015 00:29:58" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/accordion.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/js/textarea/jquery.autosize.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/searchbox.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Bootstrap/js/datatable/dataTables.bootstrap.min.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/black/layout.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/menu.css" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/menu_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.droppable.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/panel.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/menubutton.css" publishTime="06/29/2015 23:44:44" />
@@ -891,25 +940,29 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/panel.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/css/typicons.min.css" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/panel.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/linkbutton.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Bootstrap/js/html5shiv.js" publishTime="07/06/2015 10:23:58" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/calendar_arrows.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Bootstrap/js/swf/copy_csv_xls_pdf.swf" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Views/Web.config" publishTime="06/29/2015 21:46:30" />
-    <file relUrl="Scripts/UI/Bootstrap/js/jquery-1.11.1.js" publishTime="07/02/2015 10:58:18" />
+    <file relUrl="Scripts/UI/Bootstrap/js/jquery-1.11.1.js" publishTime="07/02/2015 10:58:20" />
+    <file relUrl="Scripts/Plug-JS/placeholder/placeholder.js" publishTime="07/09/2015 14:59:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/datebox.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/slider_handle.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/slider.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/black/images/datagrid_icons.png" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/accordion.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/tooltip.css" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-green/tree.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/lib/jquery.mousewheel-3.0.6.pack.js" publishTime="07/14/2015 17:39:20" />
+    <file relUrl="Scripts/UI/Easyui/themes/icons/sum.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/gray/images/searchbox_button.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/locale/easyui-lang-zh_CN.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/panel_tools.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/default/datebox.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/loading.gif" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-red/linkbutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/layout_arrows.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/combobox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="bin/zh-Hans/System.Web.WebPages.resources.dll" publishTime="06/29/2015 21:46:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/icons/large_picture.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/slider_handle.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/slider.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/calendar.css" publishTime="06/29/2015 23:44:46" />
@@ -918,40 +971,48 @@
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/propertygrid.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/js/datatable/jquery.dataTables.min.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.messager.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="bin/System.Net.Http.Formatting.xml" publishTime="06/29/2015 21:46:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/icons/cancel.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/numberbox.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/combobox.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/menu_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/gray/datagrid.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/tree_icons.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/js/fuelux/treeview/treeview-init.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/searchbox.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/gray/searchbox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll" publishTime="06/29/2015 21:46:42" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/images/accordion_arrows.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/progressbar.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/datagrid_icons.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/default/easyui.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/sparkline/sparkline-init.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/tree.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/menu.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Bootstrap/js/charts/sparkline/jquery.sparkline.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/calendar_arrows.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.slider.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Bootstrap/fonts/weathericons-regular-webfont.ttf" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/validatebox_warning.png" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/ExtensionPlug/easydropdown/jquery.easydropdown.min.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/filebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/spinner_arrows.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/pagination_icons.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/datagrid.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/black/images/blank.gif" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/datagrid_icons.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/validatebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/tooltip.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/layout_arrows.png" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/linkbutton.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/images/datagrid_icons.png" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/progressbar.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-red/combo.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro/splitbutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/messager.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/blank.gif" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/propertygrid.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/window.css" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/spinner_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/icons/print.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/bootstrap/calendar.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/accordion.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/linkbutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/splitbutton.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/dialog.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.numberspinner.js" publishTime="06/29/2015 23:44:40" />
@@ -961,61 +1022,69 @@
     <file relUrl="Scripts/UI/Bootstrap/js/knob/jquery.knob.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/tooltip.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/menu.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/searchbox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-red/panel.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/loading.gif" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-green/searchbox.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/demo/5_s.jpg" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/images/calendar_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/easyui.css" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro/validatebox.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/ajaxfileupload/ajaxfileupload.js" publishTime="07/14/2015 17:39:20" />
+    <file relUrl="Scripts/UI/Easyui/themes/default/menubutton.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/default/searchbox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/Plug-JS/jqueryValidate/jquery.validate.unobtrusive.js" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-orange/combo.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/black/slider.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/images/combo_arrow.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/tree_icons.png" publishTime="06/29/2015 23:44:46" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/calendar_arrows.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/datebox.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.tabs.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/redo.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/menu.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/datalist.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/datagrid.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/slider_handle.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-green/images/pagination_icons.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/accordion.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/loading.gif" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/calendar_arrows.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/calendar_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/gray/images/menu_arrows.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Bootstrap/img/avatars/adam-jansen.jpg" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Areas/Backstage/Content/JS/Login.js" publishTime="07/01/2015 14:58:45" />
+    <file relUrl="Areas/Backstage/Content/JS/Login.js" publishTime="07/24/2015 17:17:30" />
     <file relUrl="Scripts/UI/Easyui/themes/default/pagination.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-gray/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Scripts/UI/Easyui/src/jquery.calendar.js" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="AppCode/ViewPageAttribute.cs.txt" publishTime="08/09/2015 17:36:42" />
     <file relUrl="Scripts/UI/Easyui/themes/black/pagination.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/Plug-JS/jqueryValidate/jquery.unobtrusive-ajax.js" publishTime="06/29/2015 23:44:38" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro/images/messager_icons.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/ExtensionPlug/fancybox/source/jquery.fancybox.css" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-pepper-grinder/propertygrid.css" publishTime="06/29/2015 23:44:46" />
     <file relUrl="Scripts/UI/Easyui/plugins/jquery.datalist.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Bootstrap/img/avatars/Sergey-Azovskiy.jpg" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-sunny/images/blank.gif" publishTime="06/29/2015 23:44:46" />
+    <file relUrl="Scripts/UI/Easyui/plugins/jquery.validatebox.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="bin/System.Web.WebPages.Razor.xml" publishTime="06/29/2015 21:46:40" />
     <file relUrl="Scripts/UI/Bootstrap/js/generalAdmin.js" publishTime="06/29/2015 23:44:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-green/splitbutton.css" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="bin/General.DAL.pdb" publishTime="08/13/2015 11:33:09" />
     <file relUrl="Scripts/UI/Bootstrap/js/tagsinput/bootstrap-tagsinput.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/tooltip.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/black/images/menu_arrows.png" publishTime="06/29/2015 23:44:40" />
     <file relUrl="bin/System.Web.WebPages.Razor.dll" publishTime="06/29/2015 21:46:40" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-blue/menu.css" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/plugins/jquery.splitbutton.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/src/jquery.form.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/menubutton.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/bootstrap/dialog.css" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro-blue/images/accordion_arrows.png" publishTime="06/29/2015 23:44:42" />
+    <file relUrl="Scripts/UI/Easyui/plugins/jquery.combogrid.js" publishTime="06/29/2015 23:44:40" />
     <file relUrl="Scripts/UI/Easyui/themes/metro/images/linkbutton_bg.png" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/accordion.css" publishTime="06/29/2015 23:44:44" />
-    <file relUrl="Areas/Backstage/Views/System/RoleAdd.cshtml" publishTime="07/08/2015 18:56:17" />
+    <file relUrl="Areas/Backstage/Views/System/RoleAdd.cshtml" publishTime="08/04/2015 22:14:30" />
     <file relUrl="Scripts/UI/Bootstrap/css/animate.min.css" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Bootstrap/fonts/typicons.eot" publishTime="06/29/2015 23:44:38" />
     <file relUrl="Scripts/UI/Bootstrap/fonts/weathericons-regular-webfont.woff" publishTime="06/29/2015 23:44:38" />
-    <file relUrl="Scripts/UI/Easyui/themes/metro-orange/images/panel_tools.png" publishTime="06/29/2015 23:44:44" />
+    <file relUrl="Scripts/ExtensionPlug/jquery.serializeJSON/jquery.serializeJSON.min.js" publishTime="07/14/2015 17:39:20" />
     <file relUrl="Scripts/UI/Easyui/themes/icons/ok.png" publishTime="06/29/2015 23:44:42" />
-    <file relUrl="Scripts/UI/Easyui/themes/black/accordion.css" publishTime="06/29/2015 23:44:40" />
+    <file relUrl="Scripts/UI/Easyui/themes/metro-red/images/calendar_arrows.png" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/default/combobox.css" publishTime="06/29/2015 23:44:42" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-cupertino/propertygrid.css" publishTime="06/29/2015 23:44:44" />
     <file relUrl="Scripts/UI/Easyui/themes/ui-dark-hive/layout.css" publishTime="06/29/2015 23:44:44" />

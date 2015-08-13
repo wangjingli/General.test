@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Account" Class="AccountDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=ZUNE-PC;Initial Catalog=Account;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="AccountConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.t_Account_100" Member="t_Account_100">
+    <Type Name="t_Account_100">
+      <Column Name="ItemID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Point" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="Score" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="svPoint" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.t_Account_Log" Member="t_Account_Log">
+    <Type Name="t_Account_Log">
+      <Column Name="ItemID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="Point" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="Caption" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.t_Orders_100" Member="t_Orders_100">
+    <Type Name="t_Orders_100">
+      <Column Name="orderid" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="userId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="payType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="payAmount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="payAmountPublic" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="payMoney" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="payTypeName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="expireDays" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="createTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="payTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Bank" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="roomid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="stageid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="destuserid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cardid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="number" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parterid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cardtype" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sourceid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="moneymum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="moneytype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="qq" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="phoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

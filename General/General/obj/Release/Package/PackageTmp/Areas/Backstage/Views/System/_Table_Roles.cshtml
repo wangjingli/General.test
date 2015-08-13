@@ -1,0 +1,128 @@
+﻿@using Webdiyer.WebControls.Mvc
+@model PagedList<General.Model.SystemRole>
+@{
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr role="row">
+                <th style="width: 50px; text-align: center;">
+                    序号
+                </th>
+                <th style="width: 50px; text-align: center;">
+                    <div style="text-align: center;">
+                        <label>
+                            <input type="checkbox" id="CheckAll"><span class="text"></span>
+                        </label>
+                    </div>
+                </th>
+                <th>
+                    角色名称
+                </th>
+                <th>
+                    描述
+                </th>
+                <th>
+                    创建时间
+                </th>
+                <th>
+                    最后修改时间
+                </th>
+                <th>
+                    锁定
+                </th>
+                <th>
+                    操作
+                </th>
+            </tr>
+        </thead>
+        <tbody id="TableBody">
+            @{
+                int index = 1;
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td style="text-align: center;">
+                            @index
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            <label>
+                                <input type="checkbox" id="@("Check-id-" + item.Id)"><span class="text"></span>
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        @item.RoleName
+                </td>
+                <td>
+                    @item.Description
+            </td>
+            <td>
+                @item.CreateTime
+        </td>
+        <td>
+            @item.LastUpadateTime
+    </td>
+    <td>
+        @(item.IsLock == false ? "正常" : "锁定")
+</td>
+<td>
+    <a href="@(Url.Action("EditRole", "system", new { roleid = item.Id }))" class="btn btn-info btn-xs edit">
+        <i class="fa fa-edit"></i>修改
+    </a>
+    
+    <a href="@(Url.Action("RoleMenu", "system", new { roleid = item.Id }))" class="btn btn-info btn-xs edit">
+        <i class="fa fa-edit"></i>配置权限
+    </a>
+    <a href="@(Url.Action("RoleButton", "system", new { roleid = item.Id }))" class="btn btn-info btn-xs edit">
+        <i class="fa fa-edit"></i>配置按钮权限
+    </a>
+</td>
+</tr>
+                    index++;
+                }
+            }
+        </tbody>
+    </table>
+
+    <div class="row DTTTFooter aspnetpage-box">
+        <div class="col-sm-6">
+            <div class="dataTables_info" id="simpledatatable_info" role="alert" aria-live="polite"
+                 aria-relevant="all">
+                共 @Model.TotalPageCount 页 @Model.TotalItemCount 条记录，当前为 第 <span style="color: red;">
+                    @Model.CurrentPageIndex
+            </span>页
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="dataTables_paginate paging_bootstrap" id="simpledatatable_paginate" style="margin: 5px;">
+            @Ajax.Pager(Model,
+                    new PagerOptions
+                    {
+                        AutoHide = false,
+                        AlwaysShowFirstLastPageNumber = true,
+                        PageIndexParameterName = "id",
+                        PageIndexBoxId = "pageSelect",
+                        ContainerTagName = "ul",
+                        CssClass = "pagination",
+                        LastPageText = "末页",
+                        NextPageText = "下一页",
+                        NumericPagerItemCount = 3,//设置 显示最大页数
+                        PrevPageText = "上一页",
+                        FirstPageText = "首页",
+                        CurrentPagerItemTemplate = "<li class=\"active\"><a href=\"#\">{0}</a></li>",
+                        DisabledPagerItemTemplate = "<li class=\"disabled\"><a>{0}</a></li>",
+                        PagerItemTemplate = "<li>{0}</li>"
+                    },
+                            new MvcAjaxOptions
+                   {
+                       UpdateTargetId = "DataTable",
+                       InsertionMode = InsertionMode.Replace,
+                       HttpMethod = "Post",
+                       DataFormId = "QuerySection",
+                       EnablePartialLoading = false
+                   }).Options(o => o.SetPageIndexBoxId("pageSelect").DisableAutoHide()).AjaxOptions(a => a.SetUpdateTargetId("DataTable"))
+            <select style=" display:none;" id="pageSelect" name="pageSelect"></select>
+        </div>
+    </div>
+</div>
+}

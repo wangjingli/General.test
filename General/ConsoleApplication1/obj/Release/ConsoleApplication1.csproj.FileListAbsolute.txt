@@ -1,0 +1,5 @@
+E:\VS_NET\MVC\General.test\General\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+E:\VS_NET\MVC\General.test\General\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+E:\VS_NET\MVC\General.test\General\ConsoleApplication1\obj\Release\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\VS_NET\MVC\General.test\General\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+E:\VS_NET\MVC\General.test\General\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb

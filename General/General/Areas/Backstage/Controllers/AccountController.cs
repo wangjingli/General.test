@@ -18,10 +18,11 @@ namespace General.Areas.Backstage.Controllers
         /// </summary>
         public AccountController()
         {
-            _AccountService = new AccountService();
+            _UserInfoService = new UserInfoService();
+            //_AccountService = new AccountService();
         }
-
-        public AccountService _AccountService;
+        public UserInfoService _UserInfoService;
+        //public AccountService _AccountService;
 
         //
         // GET: /Backstage/Account/
@@ -50,7 +51,7 @@ namespace General.Areas.Backstage.Controllers
                 }
                 else
                 {
-                    var userData = _AccountService.GetWhere(m => m.UserName == model.UserName && m.IsLock == false).FirstOrDefault();
+                    var userData = _UserInfoService.GetWhere(m => m.LoginName == model.UserName && m.IsLock == false).FirstOrDefault();
                     if (FormsAuthentication.Authenticate(model.UserName, model.PassWord))
                     {
                         SetCookie(model, userData);
@@ -97,13 +98,13 @@ namespace General.Areas.Backstage.Controllers
         /// </summary>
         /// <param name="model">页面登录账户实体</param>
         /// <param name="userObject">访问数据库实体</param>
-        private void SetCookie(AccountModels model, Account userObject)
+        private void SetCookie(AccountModels model, UserInfo userObject)
         {
             //获取登录COOKIE
             HttpCookie cookie = FormsAuthentication.GetAuthCookie(model.UserName, false);
             if (userObject != null)
             {
-                cookie = FormsAuthentication.GetAuthCookie(userObject.UserName, false);
+                cookie = FormsAuthentication.GetAuthCookie(userObject.LoginName, false);
             }
             //cookie 加密 登录信息标识
             FormsAuthenticationTicket ticket = FormsAuthentication.Decrypt(cookie.Value);
@@ -112,7 +113,7 @@ namespace General.Areas.Backstage.Controllers
             if (userObject != null)
             {
                 newTicket = new FormsAuthenticationTicket(ticket.Version, ticket.Name,
-              ticket.IssueDate, ticket.Expiration, ticket.IsPersistent, string.Format("{0}|{1}|{2}|{3}", userObject.Id, userObject.Info.NickName, userObject.Info.Email, string.Join(",", userObject.Role.Menu.Select(m => m.Code).ToArray())));
+                ticket.IssueDate, ticket.Expiration, ticket.IsPersistent, string.Format("{0}|{1}|{2}|{3}", userObject.Id, userObject.NickName, userObject.Email, string.Join(",", userObject.Role.Menu.Select(m => m.Code).ToArray())));
                 //创建加密COOKIE
                 cookie.Value = FormsAuthentication.Encrypt(newTicket);
                 //FormsAuthentication.SetAuthCookie(model.UserName, false);
@@ -122,13 +123,39 @@ namespace General.Areas.Backstage.Controllers
             else
             {
                 newTicket = new FormsAuthenticationTicket(ticket.Version, ticket.Name,
-              ticket.IssueDate, ticket.Expiration, ticket.IsPersistent, "0|超级管理员|" + System.Configuration.ConfigurationManager.AppSettings["NetName"].Trim().ToString() + "@admin.com" + "| ");
+                ticket.IssueDate, ticket.Expiration, ticket.IsPersistent, "0|超级管理员|" + System.Configuration.ConfigurationManager.AppSettings["NetName"].Trim().ToString() + "@admin.com" + "| ");
                 //创建加密COOKIE
                 cookie.Value = FormsAuthentication.Encrypt(newTicket);
                 //FormsAuthentication.SetAuthCookie(model.UserName, false);
                 //添加浏览器COOKIE
                 base.Response.Cookies.Add(cookie);
             }
+
+        }
+
+        /// <summary>
+        /// 注销登录
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Logout()
+        {
+            FormsAuthentication.SignOut();
+            //string username = (User.Identity as FormsIdentity).Ticket.UserData.Split("|".ToCharArray())[1];
+            //HttpCookie cookies = Request.Cookies[username];
+            //if (cookies != null)
+            //{
+            //    cookies.Expires = DateTime.Today.AddDays(-1);
+            //    Response.Cookies.Add(cookies);
+            //    Request.Cookies.Remove(username);
+            //}
+
+            //HttpCookie c = new HttpCookie(username);
+            //c.Values.Add("1", "2");
+            //c.Expires = DateTime.Now.AddYears(1);
+            //Response.Cookies.Add(c);
+
+            //Response.Redirect(Request.Url.PathAndQuery);
+            return new HttpUnauthorizedResult();
 
         }
 

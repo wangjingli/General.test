@@ -1,17 +1,27 @@
-﻿@{
+﻿@using Webdiyer.WebControls.Mvc
+@{
     ViewBag.Title = "系统角色";
     ViewBag.Nav = new List<string>() { "系统设置", "系统角色" };
     Layout = "~/Areas/Backstage/Views/Shared/_Layout.cshtml";
 }
-@*<link href="../../../../Scripts/UI/Bootstrap/css/bootstrap.min.css" rel="stylesheet"
-    type="text/css" />
-<link href="../../../../Scripts/UI/Bootstrap/css/generalAdmin.min.css" rel="stylesheet"
-    type="text/css" />*@
+
 @section Scripts
     {
+    @{Html.RegisterMvcPagerScriptResource();}
+    @*<script src="../../../../Scripts/UI/Bootstrap/js/jquery-1.11.1.js" type="text/javascript"></script>*@
     <script type="text/javascript" language="javascript">
         function addRole() { }
 
+        //查询
+        function Query() {
+            //alert(1);
+            var $from = $("#QuerySection").serialize();
+            //alert(2);
+
+            $("#QuerySection").submit();
+            //alert(3);
+
+        }
     </script>
 }
 <div class="row">
@@ -29,26 +39,30 @@
             </div>
             <div class=" widget-body">
                 <div class="table-toolbar">
-                    <form id="QuerySection">
-                    <label>
-                        角色名称：</label>
-                    <span id="" class="dataTables_filter">
+                    @using (Ajax.BeginForm("Role", new RouteValueDictionary { { "id", "" } }, new MvcAjaxOptions { UpdateTargetId = "DataTable", InsertionMode = InsertionMode.Replace }, new RouteValueDictionary { { "id", "QuerySection" } }))
+                    {
                         <label>
-                            <input type="search" class="form-control input-sm" name="MenuName" aria-controls="editabledatatable" /></label>
-                    </span>
-                    <label>
-                        <a id="query" href="javascript:Query()" class="btn btn-primary"><i class="icon fa fa-search">
-                        </i>查询</a>
-                    </label>
-                    <label>
-                        <a id="query" href="@Url.Action("RoleAdd", "System")" class="btn btn-primary"><i class="icon fa fa-plus">
-                        </i>新加角色</a>
-                    </label>
-                    <label>
-                        <a id="InitMenu" href="#" class="btn btn-primary"><i class="icon fa fa-trash-o"></i>
-                            删除 </a>
-                    </label>
-                    </form>
+                            角色名称：</label>
+                        <span id="" class="dataTables_filter">
+                            <label>
+                                <input type="search" class="form-control input-sm" name="Keyword" aria-controls="editabledatatable" /></label>
+                        </span>
+                        <label>
+                            <a id="query" href="javascript:Query();" class="btn btn-primary"><i class="icon fa fa-search">
+                            </i>查询</a>
+                        </label>
+                        <label>
+                            <a id="query" href="@Url.Action("RoleAdd", "System")" class="btn btn-primary"><i
+                                class="icon fa fa-plus"></i>新加角色</a>
+                        </label>
+                        <label>
+                            <a id="InitMenu" href="#" class="btn btn-primary"><i class="icon fa fa-trash-o"></i>
+                                删除 </a>
+                        </label>
+                    }
+                </div>
+                <div id="DataTable">
+                    @{Html.RenderPartial("_Table_Roles");}
                 </div>
             </div>
         </div>

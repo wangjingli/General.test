@@ -6,7 +6,9 @@
 @section Styles
 {
     @*<link href="../../../../Scripts/UI/Bootstrap/css/bootstrap.min.css" rel="stylesheet"
-        type="text/css" />*@
+                type="text/css" />
+
+        <link href="~/Scripts/UI/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />*@
 }
 @*@section Scripts
     {*@
@@ -25,6 +27,12 @@
                 $nameDiv.addClass("has-warning");
             }
             else {
+                //alert($roleName.val().length);
+                if ($roleName.val().length > 100) {
+                    $nameLabel.show().text("长度不能超过100！");
+                    $nameDiv.addClass("has-warning");
+                    return;
+                }
                 $nameLabel.hide().text();
                 $nameDiv.removeClass("has-warning");
             }
@@ -38,6 +46,11 @@
                 $nameDiv.addClass("has-warning");
             }
             else {
+                if ($roleDescript.val().length > 200) {
+                    $nameLabel.show().text("长度不能超过200！");
+                    $nameDiv.addClass("has-warning");
+                    return;
+                }
                 $nameLabel.hide().text();
                 $nameDiv.removeClass("has-warning");
             }
@@ -48,11 +61,17 @@
             if (validate) {
                 var data = "RoleName=" + $roleName.val() + "&Description=" + $roleDescript.val();
                 $.ajax({
+                    
                     type: "POST",
                     url: '@Url.Action("RoleAdd", "System")',
                     data: data,
-                    success: function (msg) {
-                        alert("Data Saved: " + msg.Code);
+                    success: function (result) {
+                        if (result.Code > 0) {
+                            Notify(result.msg, 'bottom-right', '5000', 'success', 'fa-edit', true);
+                        }
+                        else {
+                            Notify(result.msg, 'bottom-right', '5000', 'danger', 'fa-edit', true);
+                        }
                     }
                 });
             }
@@ -69,14 +88,14 @@
             </div>
             <div class="widget-body bordered-left bordered-blueberry">
                 <form role="form" id="formAddRole">
-                <div class="form-group  has-feedback">
+                <div class="form-group  has-feedback textbox_placeholder">
                     角色
                     <label class="control-label" for="roleName">
                     </label>
-                    <input type="text" class="form-control" id="roleName" />
+                    <input type="text" class="form-control" id="roleName" maxlength="100" />
                     <span class="form-control-feedback"><i class="fa fa-user"></i></span>
                 </div>
-                <div class="form-group  has-feedback">
+                <div class="form-group  has-feedback textbox_placeholder">
                     描述
                     <label class="control-label" for="roleDescript">
                     </label>
@@ -84,57 +103,59 @@
                     <span class="form-control-feedback"><i class="fa fa-quote-right"></i></span>
                 </div>
                 <button type="button" id="submit" class="btn btn-primary">
-                    <i class="icon fa fa-plus"></i>添加</button>
+                    <i class="icon fa fa-plus"></i>添加
+                </button>
+                <a href="@Url.Action("role", "system")" class="btn btn-primary"><i class="icon fa fa-mail-reply"></i>返回</a>
                 </form>
             </div>
         </div>
     </div>
 </div>
 @*<div class="row">
-    <div class="col-lg-12 col-sm-12 col-xs-12">
-        <div class="widget flat radius-bordered">
-            <div class="widget-header">
-                <span class="widget-caption"><i class="icon fa fa-user"></i>&nbsp;添加角色</span>
-            </div>
-            <div class="widget-body">
-                <div id="registration-form">
-                    <form role="form" id="formAddRole" action="">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <label for="exampleInputEmail2">
-                                    角色名称</label>
-                                <span class="input-icon icon-right">
-                                    <input type="text" class="form-control btn-danger" id="roleName" />
-                                    <i class="fa fa-user"></i></span>
+        <div class="col-lg-12 col-sm-12 col-xs-12">
+            <div class="widget flat radius-bordered">
+                <div class="widget-header">
+                    <span class="widget-caption"><i class="icon fa fa-user"></i>&nbsp;添加角色</span>
+                </div>
+                <div class="widget-body">
+                    <div id="registration-form">
+                        <form role="form" id="formAddRole" action="">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail2">
+                                        角色名称</label>
+                                    <span class="input-icon icon-right">
+                                        <input type="text" class="form-control btn-danger" id="roleName" />
+                                        <i class="fa fa-user"></i></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            角色<label class="control-label" for="inputSuccess2">
-                                Input with success</label>
-                            <input type="text" class="form-control" id="inputSuccess2" value="Correct Value">
-                            <span class="glyphicon glyphicon-thumbs-up form-control-feedback"></span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <label for="exampleInputEmail2">
-                                    角色描述</label>
-                                <span class="input-icon icon-right">
-                                    <textarea class="form-control" id="roleDescript" rows="10"></textarea>
-                                    <i class="fa fa-quote-right"></i></span>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                角色<label class="control-label" for="inputSuccess2">
+                                    Input with success</label>
+                                <input type="text" class="form-control" id="inputSuccess2" value="Correct Value">
+                                <span class="glyphicon glyphicon-thumbs-up form-control-feedback"></span>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail2">
+                                        角色描述</label>
+                                    <span class="input-icon icon-right">
+                                        <textarea class="form-control" id="roleDescript" rows="10"></textarea>
+                                        <i class="fa fa-quote-right"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="icon fa fa-plus"></i>添加</button>
+                        </form>
                     </div>
-                    <button type="submit" class="btn btn-primary">
-                        <i class="icon fa fa-plus"></i>添加</button>
-                    </form>
                 </div>
             </div>
         </div>
     </div>
-</div>
 *@

@@ -53,6 +53,7 @@
     <Compile Include="GeneralDbContext.cs" />
     <Compile Include="Interface\IBaseRepository.cs" />
     <Compile Include="Interface\System\IAccountRepository.cs" />
+    <Compile Include="Interface\System\ISystemButtonRepository.cs" />
     <Compile Include="Interface\System\ISystemMenuRepository.cs" />
     <Compile Include="Interface\System\ISystemRoleRepository.cs" />
     <Compile Include="Interface\System\IUserInfoRepository.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Repository\BaseRepository.cs" />
     <Compile Include="Repository\RepositoryFactory.cs" />
     <Compile Include="Repository\System\AccountRepository.cs" />
+    <Compile Include="Repository\System\SystemButtonRepository.cs" />
     <Compile Include="Repository\System\SystemMenuRepository.cs" />
     <Compile Include="Repository\System\SystemRoleRepository.cs" />
     <Compile Include="Repository\System\UserInfoRepository.cs" />

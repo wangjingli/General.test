@@ -21,11 +21,13 @@
   </TreeNode>
 
   <TreeNode Title='系统设置'  Code='SystemSet' EasyuiIcon='icon-setting' BootstrapIcon='fa fa-cog'>
-    <TreeNode Title='用户管理' Code='SystemSet.Account' EasyuiIcon='icon-user' BootstrapIcon='fa fa-user' Url='~/Backstage/Home/Index2'>
+    <TreeNode Title='用户管理' Code='Backstage.System.SystemUser' EasyuiIcon='icon-user' BootstrapIcon='fa fa-user' Url='~/Backstage/system/SystemUser'>
     </TreeNode>
-    <TreeNode Title='角色管理' Code='SystemSet.Role' EasyuiIcon='icon-role' BootstrapIcon='fa fa-users' Url='~/Backstage/System/Role'>
+    <TreeNode Title='角色管理' Code='Backstage.System.Role' EasyuiIcon='icon-role' BootstrapIcon='fa fa-users' Url='~/Backstage/System/Role'>
     </TreeNode>
     <TreeNode Title='菜单管理' Code='SystemSet.Menu' EasyuiIcon='icon-menuBlue' BootstrapIcon='fa fa-th-list' Url='~/Backstage/System/Menu'>
+    </TreeNode>
+    <TreeNode Title='菜单管理-增强版' Code='SystemSet.MenuPro' EasyuiIcon='icon-menuBlue' BootstrapIcon='fa fa-th-list' Url='~/Backstage/System/MenuPro'>
     </TreeNode>
     <TreeNode Title='系统锁屏' Code='SystemSet.Lock' EasyuiIcon='icon-buttonInfo' BootstrapIcon='fa fa-lock' Url='~/Backstage/Account/LockScreen'>
     </TreeNode>

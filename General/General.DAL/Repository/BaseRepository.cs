@@ -78,13 +78,16 @@ namespace General.DAL
         /// </summary>
         public void Save()
         {
+            int result = -999; ;
             try
             {
-                gContext.SaveChanges();
+                result = gContext.SaveChanges();
             }
             catch (Exception ex)
             {
+                result = -998;
                 Debug.WriteLine("数据保存错误：" + ex.Message + " 位置：" + ex.StackTrace);
+                throw ex;
             }
         }
         /// <summary>

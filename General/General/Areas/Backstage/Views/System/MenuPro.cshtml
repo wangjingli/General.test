@@ -1,0 +1,173 @@
+﻿@using General.AppCode;
+@model IEnumerable<ActionPermission>
+@{
+    ViewBag.Title = "系统菜单-加强版";
+    Layout = "~/Areas/Backstage/Views/Shared/_Layout.cshtml";
+}
+@section Styles{
+    <link href="~/Scripts/UI/Bootstrap/css/jquery.treegrid.css" rel="stylesheet" />
+    <style type="text/css">
+        
+    </style>
+}
+@section Scripts{
+    <script src="~/Scripts/UI/Bootstrap/js/treegrid/jquery.treegrid.js"></script>
+    <script type="text/javascript">
+        function save() {
+            $.post('@Url.Action("InitSystemButton", "system")', function (result) {
+                if (result.code > 0) { alert("ok"); }
+            });
+        }
+
+        $(function () {
+            $('.treegrid').treegrid({ treeColumn: 1 });
+            $("#treegridBody tr").on("click",function(){
+                var checkbox= $(this).find("input[type=checkbox]")[0];
+                checkbox.checked=!(checkbox.checked);
+            });
+            //$('.tree').treegrid();
+//            $("#InitMenu").on('click', function () {
+//                $('.loading-container').show();
+//                $('.loading-progress').show();
+//                $.ajax({
+//                    url: '@Url.Action("InitSystemMenu", "System")',
+//                    async: true,
+//                    dataType: 'json',
+//                    success: function (data) {
+//                        if (data.Code > 0) {
+//                            Notify('初始化成功！', 'bottom-right', '5000', 'success', 'fa-info-circle', true);
+//                            //$('.loading-progress').hide();
+//                            //$('.loading-container').hide();
+//                            Query();
+//                        } else if (data.Code < 0) {
+//                            $('.loading-progress').hide();
+//                            $('.loading-container').hide();
+//                            Notify(data.msg, 'bottom-right', '5000', 'danger', 'fa-exclamation-triangle', true);
+//                        }
+//                    }
+//                })
+
+//            });
+        })
+        function Query() {
+            $('.loading-container').show();
+            $('.loading-progress').show();
+            var data = $("#QuerySection").serializeJSON();
+            $.post("@Url.Action("GetMenu", "System")", data, function (jsonData) {
+                var strHtml = "";
+                $.each(jsonData.rows, function (index, item) {
+                    index++;
+                    strHtml += "<tr class='" + (item.ParentId == "" ? "treegrid-" + item.Id : "treegrid-" + item.Id + " treegrid-parent-" + item.ParentId) + "'>" +
+                                      "<td style='text-align:center;'>" + index + "</td>" +
+                                      "<td>" + item.Title + "</td>" +
+                                      "<td>" + item.Code + "</td>" +
+                                      "<td>" + item.Url + "</td>" +
+                                      "<td><i class='icon " + item.Icon + "'></i></td></tr>";
+                });
+                $('#treegridBody').empty();
+                $('#treegridBody').append(strHtml);
+                $('.treegrid').treegrid({ treeColumn: 1 });
+                $('.loading-progress').hide();
+                $('.loading-container').hide();
+            });
+
+
+            //$("#SystemMenu").treegrid("load", data);
+        }
+
+
+
+    </script>
+}
+<div class="row">
+    <div class="col-xs-12 col-md-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue manage-title-box">
+                <span class="widget-caption"><i class="typcn typcn-flow-merge"></i>&nbsp;配置 <span
+                    style="color: red;">@ViewBag.RoleName</span> 的按钮权限 </span>
+                <div class="widget-buttons">
+                    <a href="#" data-toggle="maximize" title="拉伸"><i class="fa fa-expand"></i></a>
+                </div>
+            </div>
+            <div class="widget-body">
+                <div class="table-toolbar">
+                    <label>
+                        <a href="javascript:save()" class="btn btn-primary"><i class="icon fa fa-save"></i>保存配置</a>
+                    </label>
+                    <label>
+                        <a href="@Url.Action("Role", "System")" class="btn btn-danger"><i class="icon fa fa-mail-reply-all">
+                        </i>返回角色列表 </a>
+                    </label>
+                </div>
+                <table class="treegrid table table-bordered table-hover">
+                    <thead>
+                        <tr role="row">
+                            <th style="width: 50px; text-align: center;">
+                            </th>
+                            <th>
+                                目录
+                            </th>
+                            <th>
+                                描述
+                            </th>
+                            <th>
+                                区域名称(Area)
+                            </th>
+                            <th>
+                                控制器(Controller)
+                            </th>
+                            <th>
+                                ActionName
+                            </th>
+                            <th style="width: 50px; text-align: center;">
+                                <div style="text-align: center;">
+                                    <label>
+                                        <input type="checkbox" id="CheckAll"><span class="text"></span>
+                                    </label>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="treegridBody">
+                        @{
+                            int index = 1;
+                            foreach (var item in Model)
+                            {
+                            <tr style=" cursor:pointer;" class="@(item.Description_Spell == null ? (item.SecoundPath_Spell == null ? "treegrid-" + item.FirstPath_Spell : "treegrid-" + item.SecoundPath_Spell + " treegrid-parent-" + item.FirstPath_Spell) : "treegrid-" + item.Description_Spell + " treegrid-parent-" + item.SecoundPath_Spell)">
+                                <td style="text-align: center;">
+                                    @index
+                                </td>
+                                <td>
+                                    @(item.FirstPath + "/" + item.SecoundPath)
+                                </td>
+                                <td>
+                                    @item.Description
+                                </td>
+                                <td>
+                                    @item.AreaName
+                                </td>
+                                <td>
+                                    @item.ControllerName
+                                </td>
+                                <td>
+                                    @item.ActionName
+                                </td>
+                                <td>
+                                    <div style="text-align: center;">
+                                        <label>
+                                            <input type="checkbox" id='@("Check-id-" + item.AreaName + "." + item.ControllerName + "." + item.ActionName)'
+                                                       checked="@((ViewBag.hasButtons).Contains(item.AreaName + "." + item.ControllerName + "." + item.ActionName + "|") == true ? true : false)"><span
+                                                           class="text"></span>
+                                        </label>
+                                    </div>
+                                </td>
+                            </tr>
+                                index++;
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

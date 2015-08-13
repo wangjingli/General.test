@@ -7,6 +7,12 @@ using System.Web.Mvc;
 using System.Xml.Linq;
 using General.Model;
 using General.BLL;
+using General.AppCode;
+
+using System.Reflection;
+using System.Text.RegularExpressions;
+using System.ComponentModel;
+
 
 namespace General.Areas.Backstage.Controllers
 {
@@ -16,21 +22,24 @@ namespace General.Areas.Backstage.Controllers
         /// <summary>
         /// 账户服务
         /// </summary>
-        private AccountService _AccountService;
+        private UserInfoService _UserInfoService;
         /// <summary>
         /// 构造函数
         /// </summary>
         public HomeController()
         {
-            _AccountService = new AccountService();
+            _UserInfoService = new UserInfoService();
         }
 
         //
         // GET: /Backstage/Home/
 
+        
+
+
+        [ViewPageAttribute]
         public ActionResult Index()
         {
-
             //Reqest();
 
             //XElement root = XElement.Load(Server.MapPath("~/") + "App_Data\\TreeMenu.xml");
@@ -42,10 +51,14 @@ namespace General.Areas.Backstage.Controllers
             if (SigninId != "0")
             {
                 //如果不是超级管理员，获取当前用户
-                Account user = _AccountService.GetKey(SigninId);
+                UserInfo user = _UserInfoService.GetKey(SigninId);
                 ViewBag.ActionMenu = string.Join(";", user.Role.Menu.Select(m => m.Code).ToArray());
             }
             Session.Add("ActionMenu", ViewBag.ActionMenu);
+
+
+            //long total = 0;
+            //QueryActionPlist("s", 1, 20, out total);
             return View();
         }
 
@@ -85,6 +98,11 @@ namespace General.Areas.Backstage.Controllers
             //ViewContext.RouteData.Values["controller"];
             //ViewContext.RouteData.Values["action"];
         }
+
+
+
+
+
 
     }
 }
